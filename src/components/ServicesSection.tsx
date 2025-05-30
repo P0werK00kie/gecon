@@ -15,7 +15,7 @@ const services = [
   },
   {
     title: 'CIVIL CONSTRUCTION',
-    imageUrl: 'https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/03/CivilConstrCallout.jpg',
+    imageUrl: 'https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Home%20Page/Cards/gecon_Contractor_Callout.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvSG9tZSBQYWdlL0NhcmRzL2dlY29uX0NvbnRyYWN0b3JfQ2FsbG91dC53ZWJwIiwiaWF0IjoxNzQ4NjIyNzM3LCJleHAiOjIzNzkzNDI3Mzd9.qKkevrzH8sTbXz2aqaZtFMDrRsjaOPlbx2NL8tBxJgY',
     link: '/civil-construction'
   },
   {
