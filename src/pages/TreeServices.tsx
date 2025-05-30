@@ -7,7 +7,7 @@ const TreeServices = () => {
       {/* Hero Section */}
       <section 
         className="relative h-[500px] bg-cover bg-center" 
-        style={{ backgroundImage: "url('https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/tree-services1.jpg')" }}
+        style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Tree%20Services/gecon_tree_services.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvVHJlZSBTZXJ2aWNlcy9nZWNvbl90cmVlX3NlcnZpY2VzLndlYnAiLCJpYXQiOjE3NDg2MjQ1NjksImV4cCI6MjM3OTM0NDU2OX0.R-_5RaIvELV7F16xc2rnHD9Nkt0mZqGRC1RwNSSfW9o')" }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
