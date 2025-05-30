@@ -7,7 +7,7 @@ const CommercialRoofing = () => {
       {/* Hero Section */}
       <section 
         className="relative h-[500px] bg-cover bg-center" 
-        style={{ backgroundImage: "url('https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/contact1-scaled.jpg')" }}
+        style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Commercial%20Roofing/gecon_commercial_roof_2.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvQ29tbWVyY2lhbCBSb29maW5nL2dlY29uX2NvbW1lcmNpYWxfcm9vZl8yLndlYnAiLCJpYXQiOjE3NDg2Mjg5NTEsImV4cCI6MjM3OTM0ODk1MX0.NKOefkO6WSGJ-NXJyaAHfdh7DKJ8fF9ehZfPtXJkF7w')" }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
