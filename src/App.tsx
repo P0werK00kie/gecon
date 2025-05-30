@@ -7,23 +7,28 @@ import AboutUs from './pages/AboutUs';
 import TreeServices from './pages/TreeServices';
 import DisasterRecovery from './pages/DisasterRecovery';
 import CivilConstruction from './pages/CivilConstruction';
+import NotFound from './pages/NotFound';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 function App() {
   return (
     <Router>
-      <div className="min-h-screen">
-        <Header />
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about-us" element={<AboutUs />} />
-            <Route path="/tree-services" element={<TreeServices />} />
-            <Route path="/disaster-recovery" element={<DisasterRecovery />} />
-            <Route path="/civil-construction" element={<CivilConstruction />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
+      <ErrorBoundary>
+        <div className="min-h-screen">
+          <Header />
+          <main>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about-us" element={<AboutUs />} />
+              <Route path="/tree-services" element={<TreeServices />} />
+              <Route path="/disaster-recovery" element={<DisasterRecovery />} />
+              <Route path="/civil-construction" element={<CivilConstruction />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </ErrorBoundary>
     </Router>
   );
 }
