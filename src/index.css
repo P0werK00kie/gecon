@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #075f2c;
+  --secondary-color: #454d53;
+  --dark-blue: #0a122a;
+  --bg-dark: #191e28;
+}
+
+html, body {
+  font-family: Arial, sans-serif;
+  color: #454d53;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #0a122a;
+  font-size: 115px;
+  line-height: 110px;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  color: #0a122a;
+  font-size: 56px;
+  line-height: 58px;
+  font-weight: 600;
+}
+
+h3, h4, h5, h6 {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #0a122a;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 46px;
+  line-height: 46px;
+}
+
+h4 {
+  font-size: 22px;
+  line-height: 25px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 30px;
+  line-height: 31px;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 3px 35px 5px;
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 39px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: var(--primary-color);
+}
+
+.btn-dark {
+  background-color: #454d53;
+  border: 2px solid #454d53;
+  color: white;
+}
+
+/* Header styles */
+.header-transparent {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Hero section styles */
+.hero-slider {
+  position: relative;
+  height: 900px;
+  background-color: #1b2029;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Services section */
+.service-card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.service-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service-card .desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 60px 15px 30px;
+  background: linear-gradient(0deg, rgba(0,0,0,0.8) 30%, rgba(0,0,0,0) 100%);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover .desc {
+  padding: 27px 15px 30px;
+  background: transparent;
+}
+
+.service-card .line {
+  height: 2px;
+  width: 40px;
+  background-color: var(--primary-color);
+  margin: 10px 0;
+}
+
+/* Action section */
+.action-section {
+  background-image: url('https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/04/iStock-940251778.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quick-fact {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.quick-fact h4 {
+  font-size: 26px;
+  color: white;
+  font-weight: 700;
+}
+
+.quick-fact h5 {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+}
+
+.quick-fact .number {
+  font-weight: 700;
+}
+
+.action-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: var(--bg-dark);
+  color: white;
+}
+
+.footer-action {
+  background-color: #454d53;
+  padding: 30px 0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 69px;
+    line-height: 66px;
+  }
+  
+  h2 {
+    font-size: 34px;
+    line-height: 35px;
+  }
+  
+  h3 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}

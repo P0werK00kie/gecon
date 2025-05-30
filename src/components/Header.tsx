@@ -1,0 +1,247 @@
+import React, { useState, useEffect } from 'react';
+import { Menu, X } from 'lucide-react';
+
+const Header: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [submenuOpen, setSubmenuOpen] = useState<number | null>(null);
+  
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+    
+    window.addEventListener('scroll', handleScroll);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+  
+  const toggleSubmenu = (index: number) => {
+    setSubmenuOpen(submenuOpen === index ? null : index);
+  };
+  
+  return (
+    <header className={`w-full fixed top-0 left-0 z-50 transition-all duration-300 ${
+      isScrolled ? 'bg-white/90 shadow-md py-2' : 'bg-transparent py-6'
+    }`}>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center">
+          {/* Logo */}
+          <div className="flex-shrink-0">
+            <a href="/" className="block">
+              <img 
+                src={isScrolled ? "https://gecon-com.local/wp-content/uploads/2021/02/Geconlogo2.png" : "https://gecon-com.local/wp-content/uploads/2021/03/Geconlogo2-white.png"} 
+                alt="Gecon Logo" 
+                className="h-12 sm:h-16"
+              />
+            </a>
+          </div>
+          
+          {/* Desktop Navigation */}
+          <nav className="hidden md:block">
+            <ul className="flex space-x-8">
+              <li className="relative">
+                <a 
+                  href="/" 
+                  className={`font-arial text-xl font-medium ${
+                    isScrolled ? 'text-[#0A122A] hover:text-[#075f2c]' : 'text-white hover:text-white'
+                  }`}
+                >
+                  HOME
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="/about-us" 
+                  className={`font-arial text-xl font-medium ${
+                    isScrolled ? 'text-[#0A122A] hover:text-[#075f2c]' : 'text-white hover:text-white'
+                  }`}
+                >
+                  ABOUT US
+                </a>
+              </li>
+              <li className="relative group">
+                <a 
+                  href="#" 
+                  className={`font-arial text-xl font-medium flex items-center ${
+                    isScrolled ? 'text-[#0A122A] hover:text-[#075f2c]' : 'text-white hover:text-white'
+                  }`}
+                  onClick={(e) => {e.preventDefault(); toggleSubmenu(2)}}
+                >
+                  SERVICES
+                  <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </a>
+                <ul className={`absolute left-0 mt-1 w-64 bg-white shadow-lg py-2 rounded-md transform transition-all duration-200 ${
+                  submenuOpen === 2 ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'
+                } md:group-hover:opacity-100 md:group-hover:translate-y-0 md:group-hover:pointer-events-auto`}>
+                  <li>
+                    <a href="/tree-services" className="block px-4 py-2 text-[#075f2c] font-arial hover:bg-gray-100">
+                      TREE SERVICES
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/disaster-recovery" className="block px-4 py-2 text-[#075f2c] font-arial hover:bg-gray-100">
+                      DISASTER RECOVERY
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/civil-construction" className="block px-4 py-2 text-[#075f2c] font-arial hover:bg-gray-100">
+                      CIVIL CONSTRUCTION
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/demolition" className="block px-4 py-2 text-[#075f2c] font-arial hover:bg-gray-100">
+                      DEMOLITION
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/commercial-roofing" className="block px-4 py-2 text-[#075f2c] font-arial hover:bg-gray-100">
+                      COMMERCIAL ROOFING
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/residential-roofing" className="block px-4 py-2 text-[#075f2c] font-arial hover:bg-gray-100">
+                      RESIDENTIAL ROOFING
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a 
+                  href="/opportunities" 
+                  className={`font-arial text-xl font-medium ${
+                    isScrolled ? 'text-[#0A122A] hover:text-[#075f2c]' : 'text-white hover:text-white'
+                  }`}
+                >
+                  OPPORTUNITIES
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="/contact" 
+                  className={`font-arial text-xl font-medium ${
+                    isScrolled ? 'text-[#0A122A] hover:text-[#075f2c]' : 'text-white hover:text-white'
+                  }`}
+                >
+                  CONTACT
+                </a>
+              </li>
+            </ul>
+          </nav>
+          
+          {/* Mobile Menu Button */}
+          <button 
+            className="md:hidden p-2 rounded-md"
+            onClick={toggleMenu}
+          >
+            {isMenuOpen ? 
+              <X className={isScrolled ? "text-[#0A122A]" : "text-white"} size={24} /> : 
+              <Menu className={isScrolled ? "text-[#0A122A]" : "text-white"} size={24} />
+            }
+          </button>
+        </div>
+      </div>
+      
+      {/* Mobile Menu */}
+      <div className={`md:hidden transition-all duration-300 ease-in-out ${
+        isMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
+      }`}>
+        <div className="bg-white px-4 pt-2 pb-4 shadow-lg">
+          <ul className="space-y-2">
+            <li>
+              <a 
+                href="/" 
+                className="block py-2 text-[#0A122A] font-arial text-xl font-medium"
+              >
+                HOME
+              </a>
+            </li>
+            <li>
+              <a 
+                href="/about-us" 
+                className="block py-2 text-[#0A122A] font-arial text-xl font-medium"
+              >
+                ABOUT US
+              </a>
+            </li>
+            <li>
+              <button 
+                className="flex items-center justify-between w-full py-2 text-[#0A122A] font-arial text-xl font-medium"
+                onClick={() => toggleSubmenu(2)}
+              >
+                SERVICES
+                <svg className={`w-4 h-4 transition-transform ${submenuOpen === 2 ? 'transform rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </button>
+              <ul className={`pl-4 space-y-1 transition-all duration-300 ${
+                submenuOpen === 2 ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
+              }`}>
+                <li>
+                  <a href="/tree-services" className="block py-2 text-[#075f2c] font-arial text-lg">
+                    TREE SERVICES
+                  </a>
+                </li>
+                <li>
+                  <a href="/disaster-recovery" className="block py-2 text-[#075f2c] font-arial text-lg">
+                    DISASTER RECOVERY
+                  </a>
+                </li>
+                <li>
+                  <a href="/civil-construction" className="block py-2 text-[#075f2c] font-arial text-lg">
+                    CIVIL CONSTRUCTION
+                  </a>
+                </li>
+                <li>
+                  <a href="/demolition" className="block py-2 text-[#075f2c] font-arial text-lg">
+                    DEMOLITION
+                  </a>
+                </li>
+                <li>
+                  <a href="/commercial-roofing" className="block py-2 text-[#075f2c] font-arial text-lg">
+                    COMMERCIAL ROOFING
+                  </a>
+                </li>
+                <li>
+                  <a href="/residential-roofing" className="block py-2 text-[#075f2c] font-arial text-lg">
+                    RESIDENTIAL ROOFING
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a 
+                href="/opportunities" 
+                className="block py-2 text-[#0A122A] font-arial text-xl font-medium"
+              >
+                OPPORTUNITIES
+              </a>
+            </li>
+            <li>
+              <a 
+                href="/contact" 
+                className="block py-2 text-[#0A122A] font-arial text-xl font-medium"
+              >
+                CONTACT
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
