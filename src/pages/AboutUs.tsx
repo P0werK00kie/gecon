@@ -106,7 +106,7 @@ const teamMembers = [
     name: "Jeff Christian",
     title: "CHIEF FINANCIAL OFFICER",
     image: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/02/myron-gecon_orig.jpg",
-    email: "myron@geconcorp.com"
+    email: "jchristian@gecon.com"
   },
   {
     name: "James Smith",
