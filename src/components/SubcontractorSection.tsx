@@ -10,7 +10,7 @@ const SubcontractorSection: React.FC = () => {
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       
       <div className="container mx-auto relative z-10">
-        <div className="flex justify-end">
+        <div className="flex justify-center">
           <motion.div 
             className="p-8 bg-black bg-opacity-50 max-w-md rounded-lg shadow-lg"
             initial={{ opacity: 0, y: 30 }}
