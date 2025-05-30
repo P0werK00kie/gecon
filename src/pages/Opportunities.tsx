@@ -30,7 +30,7 @@ const Opportunities = () => {
             >
               <div 
                 className="h-full min-h-[400px] bg-cover bg-center rounded-lg" 
-                style={{ backgroundImage: "url('https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/opp2.jpg')" }}
+                style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Opportunities/opp2.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvT3Bwb3J0dW5pdGllcy9vcHAyLndlYnAiLCJpYXQiOjE3NDg2Mjk0NTQsImV4cCI6MjM3OTM0OTQ1NH0.Tv75zr1XiRqqdBETXPwyqzNKgcAcTpaIn1uoYhjcefQ')" }}
               ></div>
             </motion.div>
             
