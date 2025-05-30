@@ -22,9 +22,11 @@ const SubcontractorSection: React.FC = () => {
               ARE YOU A SUB-CONTRACTOR?
             </h3>
             
-            <a href="/opportunities" className="btn btn-primary flex justify-cener">
-              JOIN OUR EFFORTS
-            </a>
+            <div className="flex justify-center">
+              <a href="/opportunities" className="btn btn-primary">
+                JOIN OUR EFFORTS
+              </a>
+            </div>
           </motion.div>
         </div>
       </div>
