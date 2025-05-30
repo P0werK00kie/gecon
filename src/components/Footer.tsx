@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
           <div>
             <p className="mb-1">1557 South Broad St.</p>
             <p className="mb-1">Monroe, GA 30655</p>
-            <a href="mailto:info@geconcorp.com" className="hover:text-gray-200 transition">info@geconcorp.com</a>
+            <a href="mailto:info@geconcorp.com" className="hover:text-gray-200 transition">info@gecon.com</a>
           </div>
         </div>
       </div>
