@@ -7,7 +7,7 @@ const Opportunities = () => {
       {/* Hero Section */}
       <section 
         className="relative h-[500px] bg-cover bg-center" 
-        style={{ backgroundImage: "url('https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/opp1.jpg')" }}
+        style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Opportunities/opp1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvT3Bwb3J0dW5pdGllcy9vcHAxLndlYnAiLCJpYXQiOjE3NDg2Mjk0MDUsImV4cCI6MjM3OTM0OTQwNX0.oERmvhili0MO2FFrbw2ifm801rgFDvTW18QHZqGqMS4')" }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
