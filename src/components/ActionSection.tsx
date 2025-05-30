@@ -52,7 +52,7 @@ const ActionSection: React.FC = () => {
               className="mb-12"
             >
               <span className="inline-block px-2 py-1 bg-[#075f2c] text-white font-medium mb-4">RECENT EVENTS</span>
-              <h2 className="text-4xl md:text-6xl font-semibold text-[#0A122A]">GECON<br/>IN ACTION</h2>
+              <h2 className="text-4xl md:text-6xl font-semibold text-white">GECON<br/>IN ACTION</h2>
             </motion.div>
             
             <div className="grid grid-cols-2 gap-8">
