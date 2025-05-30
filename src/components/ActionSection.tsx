@@ -85,7 +85,7 @@ const ActionSection: React.FC = () => {
               transition={{ duration: 0.6 }}
               className="bg-[#191e28] p-8 rounded-lg shadow-lg"
             >
-              <h3 className="text-white 3xl font-medium mb-1">2020</h3>
+              <h3 className="text-3xl font-medium mb-1">2020</h3>
               <p>
                 In August 2020, CAT 4 Hurricane Laura, one of the most powerful to strike the Gulf Coast in decades, hit the Lake Charles, Louisiana area, causing widespread destruction from devastating winds and heavy rain. In September 2020, CAT 2 Hurricane Sally struck the Gulf Shores, Alabama area, and left immediate devastation in its wake. Gecon is currently mobilizing dozens of relief crews to aid the recovery efforts on the coasts of Louisiana and Alabama. Stay tuned for updates.
               </p>
