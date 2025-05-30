@@ -7,7 +7,7 @@ const DisasterRecovery = () => {
       {/* Hero Section */}
       <section 
         className="relative h-[500px] bg-cover bg-center" 
-        style={{ backgroundImage: "url('https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/disaster1.jpg')" }}
+        style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Disaster%20Recovery/gecon_disaster_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvRGlzYXN0ZXIgUmVjb3ZlcnkvZ2Vjb25fZGlzYXN0ZXJfMS53ZWJwIiwiaWF0IjoxNzQ4NjI0NzkzLCJleHAiOjIzNzkzNDQ3OTN9.dsuliP0Uzn4wbdDm1qeUhN6eUdwxaKuV6bgkt-kSJoY')" }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
