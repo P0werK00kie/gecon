@@ -19,7 +19,7 @@ const AboutUs = () => {
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row gap-12">
             <div className="w-full md:w-1/2">
-              <div className="h-full bg-cover bg-center rounded-lg" style={{ backgroundImage: "url('https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/02/giving-1826706_orig.jpg')" }}></div>
+              <div className="h-full bg-cover bg-center rounded-lg" style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/About%20Us/Header/GeconSubHeaderImage.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvQWJvdXQgVXMvSGVhZGVyL0dlY29uU3ViSGVhZGVySW1hZ2Uud2VicCIsImlhdCI6MTc0ODYyNDE3OCwiZXhwIjoyMzc5MzQ0MTc4fQ.Jzndus98192jQJfOGQude-EMMreLwDDxTT35Fk60NnQ')" }}></div>
             </div>
             <div className="w-full md:w-1/2 px-0 md:px-8">
               <h2 className="font-helvetica text-4xl md:text-5xl font-semibold mb-8">
