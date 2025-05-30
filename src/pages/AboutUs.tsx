@@ -97,10 +97,28 @@ const TeamMember: React.FC<TeamMemberProps> = ({ name, title, image, email }) =>
 
 const teamMembers = [
   {
-    name: "Gracie Albury",
+    name: "Kevin Broderick",
     title: "CHIEF EXECUTIVE OFFICER",
     image: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/02/grace-gecon_orig.jpg",
     email: "gracie@geconcorp.com"
+  },
+  {
+    name: "Jeff Christian",
+    title: "CHIEF FINANCIAL OFFICER",
+    image: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/02/myron-gecon_orig.jpg",
+    email: "myron@geconcorp.com"
+  },
+  {
+    name: "James Smith",
+    title: "CHIEF FINANCIAL OFFICER",
+    image: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/02/myron-gecon_orig.jpg",
+    email: "jsmith@gecon.com"
+  },
+  {
+    name: "John Breedlove",
+    title: "CHIEF FINANCIAL OFFICER",
+    image: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/02/myron-gecon_orig.jpg",
+    email: "myron@geconcorp.com"
   },
   {
     name: "Myron Albury",
