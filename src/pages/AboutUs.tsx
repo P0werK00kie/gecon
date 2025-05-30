@@ -100,7 +100,7 @@ const teamMembers = [
     name: "Kevin Broderick",
     title: "CHIEF EXECUTIVE OFFICER",
     image: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/02/grace-gecon_orig.jpg",
-    email: "gracie@geconcorp.com"
+    email: "kbroderick@gecon.com"
   },
   {
     name: "Jeff Christian",
