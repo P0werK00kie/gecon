@@ -7,7 +7,7 @@ const CivilConstruction = () => {
       {/* Hero Section */}
       <section 
         className="relative h-[500px] bg-cover bg-center" 
-        style={{ backgroundImage: "url('https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/civil1.jpg')" }}
+        style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Civil/gecon_civil_1.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvQ2l2aWwvZ2Vjb25fY2l2aWxfMS53ZWJwIiwiaWF0IjoxNzQ4NjI4NTEzLCJleHAiOjIzNzkzNDg1MTN9.Cuk0VZlq8C4CMK9QWPAiotOOCbYfZpxWW7TV2jZ_cf0')" }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
