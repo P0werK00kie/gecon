@@ -7,6 +7,7 @@ import AboutUs from './pages/AboutUs';
 import TreeServices from './pages/TreeServices';
 import DisasterRecovery from './pages/DisasterRecovery';
 import CivilConstruction from './pages/CivilConstruction';
+import Demolition from './pages/Demolition';
 import NotFound from './pages/NotFound';
 import { ErrorBoundary } from './components/ErrorBoundary';
 
@@ -23,6 +24,7 @@ function App() {
               <Route path="/tree-services" element={<TreeServices />} />
               <Route path="/disaster-recovery" element={<DisasterRecovery />} />
               <Route path="/civil-construction" element={<CivilConstruction />} />
+              <Route path="/demolition" element={<Demolition />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
