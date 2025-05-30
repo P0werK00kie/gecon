@@ -120,12 +120,6 @@ const teamMembers = [
     image: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/02/myron-gecon_orig.jpg",
     email: "myron@geconcorp.com"
   },
-  {
-    name: "Myron Albury",
-    title: "CHIEF FINANCIAL OFFICER",
-    image: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/02/myron-gecon_orig.jpg",
-    email: "myron@geconcorp.com"
-  },
   // Add all other team members here...
 ];
 
