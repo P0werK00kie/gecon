@@ -38,6 +38,7 @@ const ActionSection: React.FC = () => {
       ref={sectionRef}
       className="action-section py-24 px-4 md:px-16 text-white relative"
     >
+      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://picsum.photos/1920/1080')" }}></div>
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="container mx-auto relative z-10">
         <div className="flex flex-col lg:flex-row gap-12">
