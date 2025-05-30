@@ -38,7 +38,7 @@ const ActionSection: React.FC = () => {
       ref={sectionRef}
       className="action-section py-24 px-4 md:px-16 text-white relative"
     >
-      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://picsum.photos/1920/1080')" }}></div>
+      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Home%20Page/gecon_in_action.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvSG9tZSBQYWdlL2dlY29uX2luX2FjdGlvbi53ZWJwIiwiaWF0IjoxNzQ4NjIxOTI5LCJleHAiOjIzNzkzNDE5Mjl9.6kAb8vmGXexRD1lhLX3d7FkQzEnqjJwVUFcH6wttVWA')" }}></div>
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="container mx-auto relative z-10">
         <div className="flex flex-col lg:flex-row gap-12">
