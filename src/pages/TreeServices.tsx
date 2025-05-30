@@ -30,7 +30,7 @@ const TreeServices = () => {
             >
               <div 
                 className="h-full min-h-[400px] bg-cover bg-center rounded-lg" 
-                style={{ backgroundImage: "url('https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/tree-services2.jpg')" }}
+                style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Tree%20Services/gecon_tree_services_2.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvVHJlZSBTZXJ2aWNlcy9nZWNvbl90cmVlX3NlcnZpY2VzXzIud2VicCIsImlhdCI6MTc0ODYyNDU5NCwiZXhwIjoyMzc5MzQ0NTk0fQ.W95t_YFgps75F7NFCDFyx7hEahtzR5MKdLVd0Z5Nrjs')" }}
               ></div>
             </motion.div>
             
