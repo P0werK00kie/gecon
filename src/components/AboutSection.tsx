@@ -8,7 +8,7 @@ const AboutSection: React.FC = () => {
         <div className="flex flex-col md:flex-row items-stretch gap-10">
           <motion.div 
             className="w-full md:w-1/2 min-h-[300px] md:min-h-[400px] bg-cover bg-center rounded-lg"
-            style={{ backgroundImage: "url('https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/04/iStock-1159425235.jpg')" }}
+            style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Home%20Page/gecon_about_us.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvSG9tZSBQYWdlL2dlY29uX2Fib3V0X3VzLndlYnAiLCJpYXQiOjE3NDg2MjEzMzYsImV4cCI6MjM3OTM0MTMzNn0.9ujfLJOh0Ruk1rSMqaAtBXfrZntmJIpEFDhOVnK6mmA')" }}
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
