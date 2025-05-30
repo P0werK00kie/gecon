@@ -30,7 +30,7 @@ const DisasterRecovery = () => {
             >
               <div 
                 className="h-full min-h-[400px] bg-cover bg-center rounded-lg" 
-                style={{ backgroundImage: "url('https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/disaster2.jpg')" }}
+                style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Disaster%20Recovery/gecon_disaster_2.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvRGlzYXN0ZXIgUmVjb3ZlcnkvZ2Vjb25fZGlzYXN0ZXJfMi53ZWJwIiwiaWF0IjoxNzQ4NjI0ODE0LCJleHAiOjIzNzkzNDQ4MTR9.mbf4XqK5D0Jj8Ut-1KRxiqQFfo8VkjZaRyiCiiDV7Y0')" }}
               ></div>
             </motion.div>
             
