@@ -19,7 +19,7 @@ const AboutUs = () => {
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row gap-12">
             <div className="w-full md:w-1/2">
-              <div className="h-full bg-cover bg-center rounded-lg" style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/About%20Us/Header/GeconSubHeaderImage.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvQWJvdXQgVXMvSGVhZGVyL0dlY29uU3ViSGVhZGVySW1hZ2Uud2VicCIsImlhdCI6MTc0ODYyNDE3OCwiZXhwIjoyMzc5MzQ0MTc4fQ.Jzndus98192jQJfOGQude-EMMreLwDDxTT35Fk60NnQ')" }}></div>
+              <div className="h-full bg-cover bg-center rounded-lg" style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/About%20Us/Header/gecon_giving_about.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvQWJvdXQgVXMvSGVhZGVyL2dlY29uX2dpdmluZ19hYm91dC53ZWJwIiwiaWF0IjoxNzQ4NjI0MjAxLCJleHAiOjIzNzkzNDQyMDF9.gQNg6sd_M4iOh8QrfeqoPVViXDGat4-pSx1AistjCno')" }}></div>
             </div>
             <div className="w-full md:w-1/2 px-0 md:px-8">
               <h2 className="font-helvetica text-4xl md:text-5xl font-semibold mb-8">
