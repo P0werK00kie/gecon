@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
               />
             </a>
             <h3 className="text-2xl font-medium">
-              <a href="tel:+1678-269-1114" className="hover:text-gray-200 transition">678.269.1114</a>
+              <a href="tel:+1678-269-1114" className="hover:text-white-200 transition">678.269.1114</a>
             </h3>
           </div>
           
