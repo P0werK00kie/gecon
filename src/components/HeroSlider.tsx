@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const HeroSlider: React.FC = () => {
   return (
     <div className="hero-slider relative">
-      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/04/iStock-635922448.jpg')" }}>
+      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Home%20Page/gecon_header_image.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvSG9tZSBQYWdlL2dlY29uX2hlYWRlcl9pbWFnZS53ZWJwIiwiaWF0IjoxNzQ4NjIwOTkwLCJleHAiOjIzNzkzNDA5OTB9.pkyRLjC7hEISPaDWU9QMsDsLTWMKGjSIoUZum2RkUQU')" }}>
         <div className="hero-overlay"></div>
       </div>
       
