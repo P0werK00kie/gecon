@@ -5,7 +5,7 @@ const SubcontractorSection: React.FC = () => {
   return (
     <section 
       className="py-24 px-4 md:px-16 bg-cover bg-center relative" 
-      style={{ backgroundImage: "url('https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/03/AdobeStock_209466807.jpg')" }}
+      style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Home%20Page/gecon_are_you_a_sub_contractor.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvSG9tZSBQYWdlL2dlY29uX2FyZV95b3VfYV9zdWJfY29udHJhY3Rvci53ZWJwIiwiaWF0IjoxNzQ4NjIyMTAzLCJleHAiOjIzNzkzNDIxMDN9.36j-K0W6F0MJJr1kklqPyEGRu1fjVPlrGALnia7dAzk')" }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       
