@@ -1,8 +1,19 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
+  const mapStyles = {
+    height: "400px",
+    width: "100%"
+  };
+  
+  const defaultCenter = {
+    lat: 33.7947, // Monroe, GA coordinates
+    lng: -83.7130
+  };
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -99,10 +110,15 @@ const Contact = () => {
           </div>
           
           <div className="w-full h-[400px] bg-gray-200 rounded-lg overflow-hidden">
-            {/* This would be replaced with an actual map component in a production environment */}
-            <div className="w-full h-full flex items-center justify-center bg-gray-300">
-              <p className="text-gray-600 text-lg">Interactive Map Would Be Displayed Here</p>
-            </div>
+            <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
+              <GoogleMap
+                mapContainerStyle={mapStyles}
+                zoom={15}
+                center={defaultCenter}
+              >
+                <Marker position={defaultCenter} />
+              </GoogleMap>
+            </LoadScript>
           </div>
         </div>
       </section>
