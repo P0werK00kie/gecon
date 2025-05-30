@@ -42,7 +42,7 @@ const Header: React.FC = () => {
               <img 
                 src={isScrolled ? "https://gecon-com.local/wp-content/uploads/2021/02/Geconlogo2.png" : "https://gecon-com.local/wp-content/uploads/2021/03/Geconlogo2-white.png"} 
                 alt="Gecon Logo" 
-                className="h-12 sm:h-16"
+                className="h-10 sm:h-14"
               />
             </a>
           </div>
@@ -50,30 +50,36 @@ const Header: React.FC = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:block">
             <ul className="flex space-x-8">
-              <li className="relative">
+              <li className="group">
                 <a 
                   href="/" 
-                  className={`font-arial text-xl font-medium ${
+                  className={`font-arial text-lg font-medium relative ${
                     isScrolled ? 'text-[#0A122A] hover:text-[#075f2c]' : 'text-white hover:text-white'
                   }`}
                 >
                   HOME
+                  <span className={`absolute bottom-0 left-0 w-full h-[2px] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100 ${
+                    isScrolled ? 'bg-[#075f2c]' : 'bg-white'
+                  }`}></span>
                 </a>
               </li>
-              <li>
+              <li className="group">
                 <a 
                   href="/about-us" 
-                  className={`font-arial text-xl font-medium ${
+                  className={`font-arial text-lg font-medium relative ${
                     isScrolled ? 'text-[#0A122A] hover:text-[#075f2c]' : 'text-white hover:text-white'
                   }`}
                 >
                   ABOUT US
+                  <span className={`absolute bottom-0 left-0 w-full h-[2px] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100 ${
+                    isScrolled ? 'bg-[#075f2c]' : 'bg-white'
+                  }`}></span>
                 </a>
               </li>
               <li className="relative group">
                 <a 
                   href="#" 
-                  className={`font-arial text-xl font-medium flex items-center ${
+                  className={`font-arial text-lg font-medium flex items-center relative ${
                     isScrolled ? 'text-[#0A122A] hover:text-[#075f2c]' : 'text-white hover:text-white'
                   }`}
                   onClick={(e) => {e.preventDefault(); toggleSubmenu(2)}}
@@ -82,6 +88,9 @@ const Header: React.FC = () => {
                   <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
+                  <span className={`absolute bottom-0 left-0 w-full h-[2px] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100 ${
+                    isScrolled ? 'bg-[#075f2c]' : 'bg-white'
+                  }`}></span>
                 </a>
                 <ul className={`absolute left-0 mt-1 w-64 bg-white shadow-lg py-2 rounded-md transform transition-all duration-200 ${
                   submenuOpen === 2 ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'
@@ -118,24 +127,30 @@ const Header: React.FC = () => {
                   </li>
                 </ul>
               </li>
-              <li>
+              <li className="group">
                 <a 
                   href="/opportunities" 
-                  className={`font-arial text-xl font-medium ${
+                  className={`font-arial text-lg font-medium relative ${
                     isScrolled ? 'text-[#0A122A] hover:text-[#075f2c]' : 'text-white hover:text-white'
                   }`}
                 >
                   OPPORTUNITIES
+                  <span className={`absolute bottom-0 left-0 w-full h-[2px] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100 ${
+                    isScrolled ? 'bg-[#075f2c]' : 'bg-white'
+                  }`}></span>
                 </a>
               </li>
-              <li>
+              <li className="group">
                 <a 
                   href="/contact" 
-                  className={`font-arial text-xl font-medium ${
+                  className={`font-arial text-lg font-medium relative ${
                     isScrolled ? 'text-[#0A122A] hover:text-[#075f2c]' : 'text-white hover:text-white'
                   }`}
                 >
                   CONTACT
+                  <span className={`absolute bottom-0 left-0 w-full h-[2px] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100 ${
+                    isScrolled ? 'bg-[#075f2c]' : 'bg-white'
+                  }`}></span>
                 </a>
               </li>
             </ul>
@@ -160,31 +175,34 @@ const Header: React.FC = () => {
       }`}>
         <div className="bg-white px-4 pt-2 pb-4 shadow-lg">
           <ul className="space-y-2">
-            <li>
+            <li className="group">
               <a 
                 href="/" 
-                className="block py-2 text-[#0A122A] font-arial text-xl font-medium"
+                className="block py-2 text-[#0A122A] font-arial text-lg font-medium relative"
               >
                 HOME
+                <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#075f2c] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
               </a>
             </li>
-            <li>
+            <li className="group">
               <a 
                 href="/about-us" 
-                className="block py-2 text-[#0A122A] font-arial text-xl font-medium"
+                className="block py-2 text-[#0A122A] font-arial text-lg font-medium relative"
               >
                 ABOUT US
+                <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#075f2c] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
               </a>
             </li>
             <li>
               <button 
-                className="flex items-center justify-between w-full py-2 text-[#0A122A] font-arial text-xl font-medium"
+                className="flex items-center justify-between w-full py-2 text-[#0A122A] font-arial text-lg font-medium group relative"
                 onClick={() => toggleSubmenu(2)}
               >
                 SERVICES
                 <svg className={`w-4 h-4 transition-transform ${submenuOpen === 2 ? 'transform rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
+                <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#075f2c] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
               </button>
               <ul className={`pl-4 space-y-1 transition-all duration-300 ${
                 submenuOpen === 2 ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
@@ -221,20 +239,22 @@ const Header: React.FC = () => {
                 </li>
               </ul>
             </li>
-            <li>
+            <li className="group">
               <a 
                 href="/opportunities" 
-                className="block py-2 text-[#0A122A] font-arial text-xl font-medium"
+                className="block py-2 text-[#0A122A] font-arial text-lg font-medium relative"
               >
                 OPPORTUNITIES
+                <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#075f2c] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
               </a>
             </li>
-            <li>
+            <li className="group">
               <a 
                 href="/contact" 
-                className="block py-2 text-[#0A122A] font-arial text-xl font-medium"
+                className="block py-2 text-[#0A122A] font-arial text-lg font-medium relative"
               >
                 CONTACT
+                <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#075f2c] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
               </a>
             </li>
           </ul>
