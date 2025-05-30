@@ -98,7 +98,7 @@ const ActionSection: React.FC = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="bg-[#191e28] p-8 rounded-lg shadow-lg"
             >
-              <h3 className="text-3xl font-medium mb-4">2018</h3>
+              <h3 className="text-3xl text-white font-medium mb-4">2018</h3>
               <p>
                 Historic hurricane Michael, the third most intense hurricane to make landfall in the United States; and its fury engulfed the whole of Florida and most of Georgia in the beginning of October 2018. While Michael was still raging, Gecon mobilized recovery crews from all across the nation to immediately begin storm recovery and relief for the citizens of Florida. When Hurricane Florence hit September 2018, Gecon made it their mission to help North Carolina military communities and base operations rebuild that has continued into 2019, with no sign of slowing down until our North Carolina armed forces are thriving again. Stay in touch for more updates.
               </p>
