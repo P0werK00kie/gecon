@@ -33,6 +33,7 @@ const Terms = () => {
                 <li><a href="#modifcations" className="hover:text-[#075f2c]">Modifcations</a></li>
                 <li><a href="#servicestos" className="hover:text-[#075f2c]">Gecon Service Terms and Conditions</a></li>
                 <li><a href="#submissions" className="hover:text-[#075f2c]">Information Submitted through the Website and the Services</a></li>
+                <li><a href="#lando" className="hover:text-[#075f2c]">License and Ownership</a></li>
                 <li><a href="#contact-us" className="hover:text-[#075f2c]">Contact Us</a></li>
               </ol>
             </nav>
@@ -93,12 +94,19 @@ GECON grants You a limited, personal, nontransferable, nonsublicensable, revocab
             </section>
         
            <section id="submissions">
-              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">6. GECON Service Terms and Conditions</h2>
+              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">8. Restrictions on Use of the Website</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed mb-4">
 Your submission of information through the Website and the Services is governed by these Terms of Use. You represent and warrant that any information You provide through the Website or the Services is and will remain accurate and complete, and that You will maintain and update such information as needed.
 With respect to any individual whose personal information is provided by You to GECON through the Website and the Services, You represent to GECON that You have the authority to provide such information and that You have provided all necessary notice and obtained all necessary consents for the processing of such information contemplated by the Services You are using.
-           </p>
+                 </p>
+                 <div className="bg-gray-50 p-6 rounded-lg">
+                  <p className="text-[#454d53]">GECON</p>
+                  <p className="text-[#454d53]">1557 South Broad St.</p>
+                  <p className="text-[#454d53]">Monroe, GA 30655</p>
+                  <p className="text-[#454d53]">Email: information@gecon.com</p>
+                  <p className="text-[#454d53]">Phone: (678) 269-1114</p>
+                </div>
               </div>
             </section>
 
