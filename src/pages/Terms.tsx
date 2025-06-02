@@ -31,7 +31,7 @@ const Terms = () => {
                 <li><a href="#eligibility" className="hover:text-[#075f2c]">User Eligibility</a></li>
                 <li><a href="#scopeterms" className="hover:text-[#075f2c]">Scope of Terms of Use</a></li>
                 <li><a href="#modifcations" className="hover:text-[#075f2c]">Modifcations</a></li>
-                <li><a href="#prohibited" className="hover:text-[#075f2c]">Prohibited Activities</a></li>
+                <li><a href="#servicestos" className="hover:text-[#075f2c]">Gecon Service Terms and Conditions</a></li>
                 <li><a href="#termination" className="hover:text-[#075f2c]">Term and Termination</a></li>
                 <li><a href="#contact-us" className="hover:text-[#075f2c]">Contact Us</a></li>
               </ol>
