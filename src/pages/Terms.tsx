@@ -32,7 +32,7 @@ const Terms = () => {
                 <li><a href="#scopeterms" className="hover:text-[#075f2c]">Scope of Terms of Use</a></li>
                 <li><a href="#modifcations" className="hover:text-[#075f2c]">Modifcations</a></li>
                 <li><a href="#servicestos" className="hover:text-[#075f2c]">Gecon Service Terms and Conditions</a></li>
-                <li><a href="#termination" className="hover:text-[#075f2c]">Term and Termination</a></li>
+                <li><a href="#websitesubmission" className="hover:text-[#075f2c]">Information Submitted through the Website and the Services</a></li>
                 <li><a href="#contact-us" className="hover:text-[#075f2c]">Contact Us</a></li>
               </ol>
             </nav>
@@ -81,9 +81,17 @@ The Website is provided by GECON and available only to entities and persons over
 The service terms and conditions of GECON (the “GECON Service Terms and Conditions”) applicable to the transportation and related services provided by GECON govern Your use of such GECON related services obtained through this Website, in addition to any other terms and conditions that may be applicable to such transaction as provided in these Website Terms of Use and the Service Agreement(s). The GECON Terms and Conditions are hereby incorporated into these Terms of Use, such that all references herein to the Terms of Use shall be deemed to include, to the extent applicable, the GECON Terms and Conditions.                </p>
               </div>
             </section>
+            
+           <section id="submissions">
+              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">6. GECON Service Terms and Conditions</h2>
+              <div className="prose max-w-none">
+                <p className="text-[#454d53] leading-relaxed mb-4">
+The service terms and conditions of GECON (the “GECON Service Terms and Conditions”) applicable to the transportation and related services provided by GECON govern Your use of such GECON related services obtained through this Website, in addition to any other terms and conditions that may be applicable to such transaction as provided in these Website Terms of Use and the Service Agreement(s). The GECON Terms and Conditions are hereby incorporated into these Terms of Use, such that all references herein to the Terms of Use shall be deemed to include, to the extent applicable, the GECON Terms and Conditions.                </p>
+              </div>
+            </section>
 
             <section id="termination">
-              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">6. Term and Termination</h2>
+              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">6. Information Submitted through the Website and the Services</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed">
                   We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms. Upon termination, your right to use the Service will immediately cease.
