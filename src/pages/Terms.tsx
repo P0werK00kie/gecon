@@ -120,6 +120,57 @@ Inbound Links. Linking to any page of the Website other than to http://www.GECON
                 </p>
               </div>
             </section>
+            
+            <section id="submissions">
+              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">10. Submissions</h2>
+              <div className="prose max-w-none">
+                <p className="text-[#454d53] leading-relaxed">
+GECON does not accept ideas, concepts, or techniques for new services or products through the Website ("Comments"). If such Comments are received, You acknowledge that (a) they will not be considered confidential or proprietary, (b) GECON and its affiliates are under no obligation to keep such information confidential, and (c) GECON will have an unrestricted, irrevocable, world-wide, royalty-free right to use, communicate, reproduce, publish, display, distribute, and exploit such Comments in any manner it chooses.
+                </p>
+              </div>
+            </section>
+            
+            <section id="termination">
+              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">11. Termination</h2>
+              <div className="prose max-w-none">
+                <p className="text-[#454d53] leading-relaxed">
+You agree that GECON, in its sole discretion, may terminate or suspend Your use of the Website, the GECON Systems, Information, Services and Content at any time and for any or no reason in its sole discretion, even if access and use continues to be allowed to others. Upon such suspension or termination, You must immediately (a) discontinue use of the Website, and (b) destroy any copies You have made of any portion of the Content. Accessing the Website, the GECON Systems, Information or Services after such termination, suspension or discontinuation shall constitute an act of trespass. Further, You agree that GECON shall not be liable to You or any third party for any termination or suspension of Your access to the Website, the GECON Systems, Information and/or the Services.
+                </p>
+              </div>
+            </section>
+            
+            <section id="warranties">
+              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">11. Disclaimer of Warranties</h2>
+              <div className="prose max-w-none">
+                <p className="text-[#454d53] leading-relaxed">
+GECON makes no representations about the results to be obtained from using the website, the GECON systems, the services, the information or the content. The use of same is at your own risk.
+
+The website, the GECON systems, the information, the services and the content are provided on an "as is" basis. GECON, its licensors, and its suppliers, to the fullest extent permitted by law, disclaim all warranties, either express or implied, statutory or otherwise, including but not limited to the implied warranties of merchantability, non-infringement of third parties' rights, and fitness for a particular purpose. GECON and its affiliates, licensors and suppliers make no representations or warranties about the accuracy, completeness, security or timeliness of the content, information or services provided on or through the use of the website or the GECON systems. No information obtained by you from the website shall create any warranty not expressly stated by GECON in these Terms of Use.
+
+Some jurisdictions do not allow limitations on implied warranty, so the limitations and exclusions in this section may not apply to you. If you are dealing as a consumer, your statutory rights that cannot be waived, if any, are not affected by these provisions. You agree and acknowledge that the limitations and exclusions of liability and warranty provided in these Terms of Use are fair and reasonable.
+
+                </p>
+              </div>
+            </section>
+            
+            <section id="warranties">
+              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">12. LIMITATION OF LIABILITY</h2>
+              <div className="prose max-w-none">
+                <p className="text-[#454d53] leading-relaxed">
+To the extent permitted by applicable law and to the extent that GECON is otherwise found responsible for any damages, GECON is responsible for actual damages only. To the extent permitted by law, in no event shall GECON, its affiliates, its licensors, its suppliers or any third parties mentioned at the website be liable for any incidental, indirect, exemplary, punitive and consequential damages, lost profits, or damages resulting from lost data or business interruption resulting from the use of or inability to use the website, the GECON systems, information, services or the content whether based on warranty, contract, tort, delict, or any other legal theory, and whether or not GECON is advised of the possibility of such damages. To the extent permitted by law, the remedies stated for you in these Terms of Use are exclusive and are limited to those expressly provided for in these Terms of Use.
+                </p>
+              </div>
+            </section>
+
+
+
+
+
+
+
+
+
+            
 
             <section id="contact-us">
               <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">7. Contact Us</h2>
