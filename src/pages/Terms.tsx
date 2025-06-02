@@ -29,7 +29,7 @@ const Terms = () => {
               <ol className="list-decimal list-inside space-y-2 text-[#454d53]">
                 <li><a href="#overview" className="hover:text-[#075f2c]">Overview</a></li>
                 <li><a href="#eligibility" className="hover:text-[#075f2c]">User Eligibility</a></li>
-                <li><a href="#intellectual-property" className="hover:text-[#075f2c]">Intellectual Property Rights</a></li>
+                <li><a href="#scopeterms" className="hover:text-[#075f2c]">Intellectual Property Rights</a></li>
                 <li><a href="#user-accounts" className="hover:text-[#075f2c]">User Accounts</a></li>
                 <li><a href="#prohibited" className="hover:text-[#075f2c]">Prohibited Activities</a></li>
                 <li><a href="#termination" className="hover:text-[#075f2c]">Term and Termination</a></li>
