@@ -53,15 +53,8 @@ const Terms = () => {
               <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">2. User Eligibility</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed mb-4">
-                  Our services include but are not limited to:
+The Website is provided by GECON and available only to entities and persons over the age of legal majority who can form legally binding agreement(s) under applicable law. If You do not qualify, You are not permitted to use the Website.
                 </p>
-                <ul className="list-disc list-inside text-[#454d53] space-y-2 ml-4">
-                  <li>Tree Services</li>
-                  <li>Disaster Recovery</li>
-                  <li>Civil Construction</li>
-                  <li>Demolition</li>
-                  <li>Commercial and Residential Roofing</li>
-                </ul>
               </div>
             </section>
 
