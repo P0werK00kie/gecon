@@ -69,8 +69,7 @@ The Website is provided by GECON and available only to entities and persons over
             <section id="user-accounts">
               <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">4. User Accounts</h2>
               <div className="prose max-w-none">
-                <p className="text-[#454d53] leading-relaxed">
-                  When you create an account with us, you must provide accurate, complete, and current information. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.
+                <p className="text-[#454d53] leading-relaxed">GECON may revise and update these Terms of Use at any time. Your continued usage of the Website after any changes to these Terms of Use will mean You accept those changes. Any aspect of the Website may be changed, supplemented, deleted or updated without notice at the sole discretion of GECON. GECON may also change or impose fees for products and services provided through the Website at any time in its sole discretion. GECON may establish or change, at any time, general practices and limits concerning other GECON products and services in its sole discretion.
                 </p>
               </div>
             </section>
