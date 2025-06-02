@@ -59,10 +59,9 @@ The Website is provided by GECON and available only to entities and persons over
             </section>
 
             <section id="intellectual-property">
-              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">3. Intellectual Property Rights</h2>
+              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">3. Scope of Terms of Use</h2>
               <div className="prose max-w-none">
-                <p className="text-[#454d53] leading-relaxed">
-                  The Service and its original content, features, and functionality are and will remain the exclusive property of GECON and its licensors. The Service is protected by copyright, trademark, and other laws. Our trademarks and trade dress may not be used in connection with any product or service without our prior written consent.
+                <p className="text-[#454d53] leading-relaxed">These Terms of Use govern Your use of the Website and all applications, software, and services (collectively, "Services") available on the Website, except to the extent such Services are the subject of a separate agreement. Specific terms or agreements may apply to the use of certain Services and other items provided to You on the Website ("Service Agreement(s)"). Any such Service Agreements accompany the applicable Services or are listed in association with or through a hyperlink associated with the applicable Services.
                 </p>
               </div>
             </section>
