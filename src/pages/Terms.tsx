@@ -78,8 +78,7 @@ The Website is provided by GECON and available only to entities and persons over
               <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">5. GECON Service Terms and Conditions</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed mb-4">
-                  You may not access or use the Service for any purpose other than that for which we make the Service available. The Service may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.
-                </p>
+The service terms and conditions of GECON (the “GECON Service Terms and Conditions”) applicable to the transportation and related services provided by GECON govern Your use of such GECON related services obtained through this Website, in addition to any other terms and conditions that may be applicable to such transaction as provided in these Website Terms of Use and the Service Agreement(s). The GECON Terms and Conditions are hereby incorporated into these Terms of Use, such that all references herein to the Terms of Use shall be deemed to include, to the extent applicable, the GECON Terms and Conditions.                </p>
               </div>
             </section>
 
