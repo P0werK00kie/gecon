@@ -12,6 +12,7 @@ import CommercialRoofing from './pages/CommercialRoofing';
 import ResidentialRoofing from './pages/ResidentialRoofing';
 import Opportunities from './pages/Opportunities';
 import Contact from './pages/Contact';
+import Privacy from './pages/Privacy';
 import NotFound from './pages/NotFound';
 import { ErrorBoundary } from './components/ErrorBoundary';
 
@@ -33,6 +34,7 @@ function App() {
               <Route path="/residential-roofing" element={<ResidentialRoofing />} />
               <Route path="/opportunities" element={<Opportunities />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/privacy" element={<Privacy />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

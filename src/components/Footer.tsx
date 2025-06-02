@@ -46,7 +46,10 @@ const Footer: React.FC = () => {
       <div className="border-t border-white border-opacity-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p>© {new Date().getFullYear()} Gecon. All Rights Reserved.</p>
+            <div className="flex items-center space-x-4">
+              <p>© {new Date().getFullYear()} Gecon. All Rights Reserved.</p>
+              <a href="/privacy" className="text-gray-300 hover:text-white transition">Privacy Policy</a>
+            </div>
             
             <div className="flex items-center mt-4 md:mt-0">
               <a 
