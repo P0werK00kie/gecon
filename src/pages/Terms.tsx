@@ -58,7 +58,7 @@ The Website is provided by GECON and available only to entities and persons over
               </div>
             </section>
 
-            <section id="intellectual-property">
+            <section id="scopeterms">
               <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">3. Scope of Terms of Use</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed">These Terms of Use govern Your use of the Website and all applications, software, and services (collectively, "Services") available on the Website, except to the extent such Services are the subject of a separate agreement. Specific terms or agreements may apply to the use of certain Services and other items provided to You on the Website ("Service Agreement(s)"). Any such Service Agreements accompany the applicable Services or are listed in association with or through a hyperlink associated with the applicable Services.
