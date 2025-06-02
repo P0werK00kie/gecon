@@ -13,6 +13,7 @@ import ResidentialRoofing from './pages/ResidentialRoofing';
 import Opportunities from './pages/Opportunities';
 import Contact from './pages/Contact';
 import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
 import NotFound from './pages/NotFound';
 import { ErrorBoundary } from './components/ErrorBoundary';
 
@@ -35,6 +36,7 @@ function App() {
               <Route path="/opportunities" element={<Opportunities />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/privacy" element={<Privacy />} />
+              <Route path="/terms" element={<Terms />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

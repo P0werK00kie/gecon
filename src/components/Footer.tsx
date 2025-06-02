@@ -49,6 +49,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-4">
               <p>© {new Date().getFullYear()} Gecon. All Rights Reserved.</p>
               <a href="/privacy" className="text-gray-300 hover:text-white transition">Privacy Policy</a>
+              <a href="/terms" className="text-gray-300 hover:text-white transition">Terms of Service</a>
             </div>
             
             <div className="flex items-center mt-4 md:mt-0">
