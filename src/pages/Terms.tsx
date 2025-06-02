@@ -101,9 +101,9 @@ In addition to other restrictions set forth in these Terms of Use, You agree tha
                 </p>
                  <div className="bg-gray-50 p-6 rounded-lg">
                   <p className="text-[#454d53]">You shall not disguise the origin of information transmitted through the Website.</p>
-                  <p className="text-[#454d53]">1557 South Broad St.</p>
-                  <p className="text-[#454d53]">Monroe, GA 30655</p>
-                  <p className="text-[#454d53]">Email: information@gecon.com</p>
+                  <p className="text-[#454d53]">You will not place false or misleading information on the Website.</p>
+                  <p className="text-[#454d53]">You will not use or access any service, information, application or software available via the Website in a manner not expressly permitted by GECON.</p>
+                  <p className="text-[#454d53]">You will not input or upload to the Website any information which contains viruses, Trojan horses, worms, time bombs or other computer programming routines that are intended to damage, interfere with, intercept or expropriate any system, the Website or Information or that infringes the Intellectual Property (defined below) rights of another.</p>
                   <p className="text-[#454d53]">Phone: (678) 269-1114</p>
                 </div>
               </div>
