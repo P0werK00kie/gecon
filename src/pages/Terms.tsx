@@ -98,6 +98,7 @@ GECON grants You a limited, personal, nontransferable, nonsublicensable, revocab
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed mb-4">
 In addition to other restrictions set forth in these Terms of Use, You agree that:
+                </p>
                  <div className="bg-gray-50 p-6 rounded-lg">
                   <p className="text-[#454d53]">You shall not disguise the origin of information transmitted through the Website.</p>
                   <p className="text-[#454d53]">1557 South Broad St.</p>
