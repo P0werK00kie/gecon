@@ -28,7 +28,7 @@ const Terms = () => {
             <nav>
               <ol className="list-decimal list-inside space-y-2 text-[#454d53]">
                 <li><a href="#overview" className="hover:text-[#075f2c]">Overview</a></li>
-                <li><a href="#services" className="hover:text-[#075f2c]">Services</a></li>
+                <li><a href="#eligibility" className="hover:text-[#075f2c]">User Eligibility</a></li>
                 <li><a href="#intellectual-property" className="hover:text-[#075f2c]">Intellectual Property Rights</a></li>
                 <li><a href="#user-accounts" className="hover:text-[#075f2c]">User Accounts</a></li>
                 <li><a href="#prohibited" className="hover:text-[#075f2c]">Prohibited Activities</a></li>
@@ -49,8 +49,8 @@ const Terms = () => {
               </div>
             </section>
 
-            <section id="services">
-              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">2. Services</h2>
+            <section id="eligibility">
+              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">2. User Eligibility</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed mb-4">
                   Our services include but are not limited to:
