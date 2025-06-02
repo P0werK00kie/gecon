@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
           <div className="md:col-span-2 flex items-center">
             <a href="/" className="block mr-6">
               <img 
-                src="https://gecon-com.local/wp-content/uploads/2021/02/GeconlogoWorld-white.png" 
+                src="https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Logos/GeconlogoWorld-white.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvTG9nb3MvR2Vjb25sb2dvV29ybGQtd2hpdGUucG5nIiwiaWF0IjoxNzQ4ODgwOTIyLCJleHAiOjIzNzk2MDA5MjJ9.Jmzch1BGYiCtpLciGQL4LFJe6pqsh3NxiaryecQhQPc" 
                 alt="Gecon Logo" 
                 className="h-28"
               />
