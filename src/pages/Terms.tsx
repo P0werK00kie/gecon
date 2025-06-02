@@ -93,7 +93,7 @@ GECON grants You a limited, personal, nontransferable, nonsublicensable, revocab
               </div>
             </section>
         
-           <section id="submissions">
+           <section id="websiterestrictions">
               <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">8. Restrictions on Use of the Website</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed mb-4">
@@ -110,11 +110,6 @@ In addition to other restrictions set forth in these Terms of Use, You agree tha
                 </div>
               </div>
             </section>
-
-
-
-
-            
 
             <section id="termination">
               <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">6. Information Submitted through the Website and the Services</h2>
