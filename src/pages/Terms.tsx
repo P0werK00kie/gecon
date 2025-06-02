@@ -97,11 +97,9 @@ GECON grants You a limited, personal, nontransferable, nonsublicensable, revocab
               <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">8. Restrictions on Use of the Website</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed mb-4">
-Your submission of information through the Website and the Services is governed by these Terms of Use. You represent and warrant that any information You provide through the Website or the Services is and will remain accurate and complete, and that You will maintain and update such information as needed.
-With respect to any individual whose personal information is provided by You to GECON through the Website and the Services, You represent to GECON that You have the authority to provide such information and that You have provided all necessary notice and obtained all necessary consents for the processing of such information contemplated by the Services You are using.
-                 </p>
+In addition to other restrictions set forth in these Terms of Use, You agree that:
                  <div className="bg-gray-50 p-6 rounded-lg">
-                  <p className="text-[#454d53]">GECON</p>
+                  <p className="text-[#454d53]">You shall not disguise the origin of information transmitted through the Website.</p>
                   <p className="text-[#454d53]">1557 South Broad St.</p>
                   <p className="text-[#454d53]">Monroe, GA 30655</p>
                   <p className="text-[#454d53]">Email: information@gecon.com</p>
