@@ -44,7 +44,7 @@ const Terms = () => {
               <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">1. Overview</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed">
-                  These Terms of Service constitute a legally binding agreement made between you and GECON ("we," "us" or "our"), concerning your access to and use of our services. By accessing or using our services, you agree to be bound by these Terms. If you disagree with any part of these terms, then you may not access our services.
+                 These website Terms of Use (the "Terms of Use") govern your access to and use of the website. The website is available for your use only on the condition that you agree to the Terms of Use set forth below. If you do not agree to all of the Terms of Use, do not access or use the website. By accessing or using the website, you and the entity you are authorized to represent ("you" or "your") signify your agreement to be bound by the Terms of Use.
                 </p>
               </div>
             </section>
