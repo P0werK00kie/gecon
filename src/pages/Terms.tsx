@@ -27,7 +27,7 @@ const Terms = () => {
             <h2 className="text-xl font-semibold mb-4 text-[#0A122A]">Table of Contents</h2>
             <nav>
               <ol className="list-decimal list-inside space-y-2 text-[#454d53]">
-                <li><a href="#agreement" className="hover:text-[#075f2c]">Agreement to Terms</a></li>
+                <li><a href="#overview" className="hover:text-[#075f2c]">Overview</a></li>
                 <li><a href="#services" className="hover:text-[#075f2c]">Services</a></li>
                 <li><a href="#intellectual-property" className="hover:text-[#075f2c]">Intellectual Property Rights</a></li>
                 <li><a href="#user-accounts" className="hover:text-[#075f2c]">User Accounts</a></li>
@@ -40,8 +40,8 @@ const Terms = () => {
 
           {/* Content Sections */}
           <div className="space-y-12">
-            <section id="agreement">
-              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">1. Agreement to Terms</h2>
+            <section id="overview">
+              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">1. Overview</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed">
                   These Terms of Service constitute a legally binding agreement made between you and GECON ("we," "us" or "our"), concerning your access to and use of our services. By accessing or using our services, you agree to be bound by these Terms. If you disagree with any part of these terms, then you may not access our services.
