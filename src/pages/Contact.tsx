@@ -19,7 +19,7 @@ const Contact = () => {
       {/* Hero Section */}
       <section 
         className="relative h-[500px] bg-cover bg-center" 
-        style={{ backgroundImage: "url('https://gecon-com.local/wp-content/uploads/2021/05/contact1.jpg')" }}
+        style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Contact%20Us/contact1.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvQ29udGFjdCBVcy9jb250YWN0MS5qcGciLCJpYXQiOjE3NDg4ODEwODIsImV4cCI6MjM3OTYwMTA4Mn0._7WOcofbQaODRUcXlCsumImslmzSoQEHOJWNMYd8AyI')" }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
