@@ -162,16 +162,6 @@ To the extent permitted by applicable law and to the extent that GECON is otherw
               </div>
             </section>
 
-
-
-
-
-
-
-
-
-            
-
             <section id="contact-us">
               <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">7. Contact Us</h2>
               <div className="prose max-w-none">
