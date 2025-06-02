@@ -74,8 +74,8 @@ The Website is provided by GECON and available only to entities and persons over
               </div>
             </section>
 
-            <section id="prohibited">
-              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">5. Prohibited Activities</h2>
+            <section id="servicestos">
+              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">5. GECON Service Terms and Conditions</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed mb-4">
                   You may not access or use the Service for any purpose other than that for which we make the Service available. The Service may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.
