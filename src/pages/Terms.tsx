@@ -111,11 +111,12 @@ In addition to other restrictions set forth in these Terms of Use, You agree tha
               </div>
             </section>
 
-            <section id="termination">
-              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">6. Information Submitted through the Website and the Services</h2>
+            <section id="links">
+              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">9. Links</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed">
-                  We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms. Upon termination, your right to use the Service will immediately cease.
+Outbound Links. The Website may contain links to third-party Websites and resources (collectively, "Linked Sites"). These Linked Sites are provided solely as a convenience to You and not as an endorsement by GECON of the content on such Linked Sites. GECON makes no representations or warranties regarding the correctness, accuracy, performance or quality of any content, software, service or application found at any Linked Site. GECON is not responsible for the availability of the Linked Sites or the content or activities of such sites. If You decide to access Linked Sites, You do so at Your own risk. In addition, Your use of Linked Sites is subject to any applicable policies and terms and conditions of use, including but not limited to, the Linked Site's privacy policy.
+Inbound Links. Linking to any page of the Website other than to http://www.GECON.com through a plain text link is strictly prohibited in the absence of a separate linking agreement with GECON. Any website or other device that links to http://www.GECON.com or any page available therein is prohibited from (a) replicating Content, (b) using a browser or border environment around the Content, (c) implying in any fashion that GECON or any of its affiliates are endorsing it or its products, (d) misrepresenting any state of facts, including its relationship with GECON or any of its affiliates, (e) presenting false information about GECON products or services, and (f) using any logo or mark of GECON or any of its affiliates without express written permission from GECON.
                 </p>
               </div>
             </section>
