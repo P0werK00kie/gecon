@@ -32,7 +32,7 @@ const Terms = () => {
                 <li><a href="#scopeterms" className="hover:text-[#075f2c]">Scope of Terms of Use</a></li>
                 <li><a href="#modifcations" className="hover:text-[#075f2c]">Modifcations</a></li>
                 <li><a href="#servicestos" className="hover:text-[#075f2c]">Gecon Service Terms and Conditions</a></li>
-                <li><a href="#websitesubmission" className="hover:text-[#075f2c]">Information Submitted through the Website and the Services</a></li>
+                <li><a href="#submissions" className="hover:text-[#075f2c]">Information Submitted through the Website and the Services</a></li>
                 <li><a href="#contact-us" className="hover:text-[#075f2c]">Contact Us</a></li>
               </ol>
             </nav>
@@ -82,13 +82,30 @@ The service terms and conditions of GECON (the “GECON Service Terms and Condit
               </div>
             </section>
             
+           <section id="lando">
+              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">6. License and Ownership</h2>
+              <div className="prose max-w-none">
+                <p className="text-[#454d53] leading-relaxed mb-4">
+Your submission of information through the Website and the Services is governed by these Terms of Use. You represent and warrant that any information You provide through the Website or the Services is and will remain accurate and complete, and that You will maintain and update such information as needed.
+With respect to any individual whose personal information is provided by You to GECON through the Website and the Services, You represent to GECON that You have the authority to provide such information and that You have provided all necessary notice and obtained all necessary consents for the processing of such information contemplated by the Services You are using.
+           </p>
+              </div>
+            </section>
+        
            <section id="submissions">
               <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">6. GECON Service Terms and Conditions</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed mb-4">
-The service terms and conditions of GECON (the “GECON Service Terms and Conditions”) applicable to the transportation and related services provided by GECON govern Your use of such GECON related services obtained through this Website, in addition to any other terms and conditions that may be applicable to such transaction as provided in these Website Terms of Use and the Service Agreement(s). The GECON Terms and Conditions are hereby incorporated into these Terms of Use, such that all references herein to the Terms of Use shall be deemed to include, to the extent applicable, the GECON Terms and Conditions.                </p>
+Your submission of information through the Website and the Services is governed by these Terms of Use. You represent and warrant that any information You provide through the Website or the Services is and will remain accurate and complete, and that You will maintain and update such information as needed.
+With respect to any individual whose personal information is provided by You to GECON through the Website and the Services, You represent to GECON that You have the authority to provide such information and that You have provided all necessary notice and obtained all necessary consents for the processing of such information contemplated by the Services You are using.
+           </p>
               </div>
             </section>
+
+
+
+
+            
 
             <section id="termination">
               <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">6. Information Submitted through the Website and the Services</h2>
