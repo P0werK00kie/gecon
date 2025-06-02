@@ -40,7 +40,7 @@ const Header: React.FC = () => {
           <div className="flex-shrink-0">
             <a href="/" className="block">
               <img 
-                src={isScrolled ? "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Logos/Geconlogo2.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvTG9nb3MvR2Vjb25sb2dvMi5wbmciLCJpYXQiOjE3NDg4ODA3NzMsImV4cCI6MjM3OTYwMDc3M30.uxSN1u2aAtg8xsJ_SKqRn4YmliYkvhb5Ca2cubxTD3c" : "https://gecon-com.local/wp-content/uploads/2021/03/Geconlogo2-white.png"} 
+                src={isScrolled ? "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Logos/Geconlogo2.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvTG9nb3MvR2Vjb25sb2dvMi5wbmciLCJpYXQiOjE3NDg4ODA3NzMsImV4cCI6MjM3OTYwMDc3M30.uxSN1u2aAtg8xsJ_SKqRn4YmliYkvhb5Ca2cubxTD3c" : "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Logos/Geconlogo2-white.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvTG9nb3MvR2Vjb25sb2dvMi13aGl0ZS5wbmciLCJpYXQiOjE3NDg4ODA3OTMsImV4cCI6MjM3OTYwMDc5M30.SaBt3RDpcET-1f-KEVE5PXQZFEUvgK4Pdi5DtnAzsOI"} 
                 alt="Gecon Logo" 
                 className="h-10 sm:h-14"
               />
