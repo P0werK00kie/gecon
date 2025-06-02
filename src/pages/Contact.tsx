@@ -74,7 +74,7 @@ const Contact = () => {
                   <h3 className="text-xl font-bold mb-2">EMAIL</h3>
                   <p className="text-lg">
                     <a href="mailto:information@gecon.com" className="text-[#454d53] hover:text-[#075f2c] transition-colors">
-                      info@geconcorp.com
+                      information@gecon.com
                     </a>
                   </p>
                 </div>
