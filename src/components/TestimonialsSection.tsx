@@ -22,7 +22,7 @@ const TestimonialsSection: React.FC = () => {
 "I would like to take this opportunity to thank you for the excellent experience... Gecon Construction... handled every aspect of the project, along with its complexities, with professionalism and integrity; making it an enthusiastic process and well-earned success... I look forward to working together with Gecon Construction in the future." 
             </blockquote>
             
-            <p className="mb-8">Kyle Young</p>
+            <p className="mb-8">- Kyle Young</p>
             
             <a href="/about-us" className="btn btn-dark">
               READ MORE
