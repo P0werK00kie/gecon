@@ -100,9 +100,9 @@ const Demolition = () => {
             <div className="bg-white p-8 rounded-lg shadow-md" style={{ height: '465px' }}>
               <iframe
                   src="https://api.leadconnectorhq.com/widget/form/QHchmhm9Q0sSN1yWStXw"
-                  style="width:100%;height:100%;border:none;border-radius:3px"
+                  style={{ width: '100%', height: '100%', border: 'none', borderRadius: '3px' }}
                   id="inline-QHchmhm9Q0sSN1yWStXw" 
-                  data-layout="{'id':'INLINE'}"
+                  data-layout={'{"id":"INLINE"}'}
                   data-trigger-type="alwaysShow"
                   data-trigger-value=""
                   data-activation-type="alwaysActivated"
