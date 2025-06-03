@@ -126,7 +126,7 @@ const Contact = () => {
       {/* Emergency Contact Section */}
       <section className="py-16 px-4 md:px-16 bg-[#075f2c] text-white">
         <div className="container mx-auto text-center">
-          <h2 className="font-helvetica text-4xl md:text-5xl font-semibold mb-8">
+          <h2 className="font-helvetica text-white text-4xl md:text-5xl font-semibold mb-8">
             EMERGENCY RESPONSE
           </h2>
           
