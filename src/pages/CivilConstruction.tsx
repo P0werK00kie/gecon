@@ -179,7 +179,7 @@ const capabilities = [
   {
     title: "Environmental Projects",
     description: "Landfill construction, erosion control, and environmental remediation services.",
-    icon: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/environmental-icon.png"
+    icon: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Civil/environmenta.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvQ2l2aWwvZW52aXJvbm1lbnRhLnN2ZyIsImlhdCI6MTc0ODk3NjMwOSwiZXhwIjoyMzc5Njk2MzA5fQ.ts7vP3Bt8KgZwLRk_qfra53J7T1tLWBkrdWwYmCg3A8"
   },
   {
     title: "Utility Infrastructure",
