@@ -1,10 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 import ServiceRequestForm from '../components/ServiceRequestForm';
 
 const TreeServices = () => {
   return (
     <div className="min-h-screen">
+      <SEO 
+        title="TREE SERVICES"
+        description="Professional tree care services including line clearing, hazardous tree removal, stump grinding, and environmentally conscious solutions for your community."
+        canonicalUrl="https://gecon.com/tree-services"
+      />
       {/* Hero Section */}
       <section 
         className="relative h-[500px] bg-cover bg-center" 

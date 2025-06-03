@@ -1,9 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 
 const AboutUs = () => {
   return (
     <div className="min-h-screen">
+      <SEO 
+        title="ABOUT US"
+        description="For over thirty years, Georgia Environmental Construction has been dedicated to building a better tomorrow. Learn about our commitment to excellence in disaster recovery, construction, and environmental services."
+        canonicalUrl="https://gecon.com/about-us"
+      />
       {/* Hero Section */}
       <section className="relative h-[500px] bg-cover bg-center" style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/About%20Us/Header/GeconSubHeaderImage.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvQWJvdXQgVXMvSGVhZGVyL0dlY29uU3ViSGVhZGVySW1hZ2Uud2VicCIsImlhdCI6MTc0ODYyNDA2NywiZXhwIjoyMzc5MzQ0MDY3fQ.ddh8Obut48ZSxMvebR_BZ2Zp7yWD_y3MgSkZP1UoEfI')" }}>
         <div className="absolute inset-0 bg-black/50"></div>

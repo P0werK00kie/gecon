@@ -1,9 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 
 const DisasterRecovery = () => {
   return (
     <div className="min-h-screen">
+      <SEO 
+        title="DISASTER RECOVERY"
+        description="24/7 emergency disaster recovery and response services. Expert management and support with extensive FEMA experience for hurricane, flood, tornado, and wildfire recovery."
+        canonicalUrl="https://gecon.com/disaster-recovery"
+      />
       {/* Hero Section */}
       <section 
         className="relative h-[500px] bg-cover bg-center" 
