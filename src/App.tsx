@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -19,31 +20,33 @@ import { ErrorBoundary } from './components/ErrorBoundary';
 
 function App() {
   return (
-    <Router>
-      <ErrorBoundary>
-        <div className="min-h-screen">
-          <Header />
-          <main>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about-us" element={<AboutUs />} />
-              <Route path="/tree-services" element={<TreeServices />} />
-              <Route path="/disaster-recovery" element={<DisasterRecovery />} />
-              <Route path="/civil-construction" element={<CivilConstruction />} />
-              <Route path="/demolition" element={<Demolition />} />
-              <Route path="/commercial-roofing" element={<CommercialRoofing />} />
-              <Route path="/residential-roofing" element={<ResidentialRoofing />} />
-              <Route path="/opportunities" element={<Opportunities />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/privacy" element={<Privacy />} />
-              <Route path="/terms" element={<Terms />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </main>
-          <Footer />
-        </div>
-      </ErrorBoundary>
-    </Router>
+    <HelmetProvider>
+      <Router>
+        <ErrorBoundary>
+          <div className="min-h-screen">
+            <Header />
+            <main>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about-us" element={<AboutUs />} />
+                <Route path="/tree-services" element={<TreeServices />} />
+                <Route path="/disaster-recovery" element={<DisasterRecovery />} />
+                <Route path="/civil-construction" element={<CivilConstruction />} />
+                <Route path="/demolition" element={<Demolition />} />
+                <Route path="/commercial-roofing" element={<CommercialRoofing />} />
+                <Route path="/residential-roofing" element={<ResidentialRoofing />} />
+                <Route path="/opportunities" element={<Opportunities />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/privacy" element={<Privacy />} />
+                <Route path="/terms" element={<Terms />} />
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </main>
+            <Footer />
+          </div>
+        </ErrorBoundary>
+      </Router>
+    </HelmetProvider>
   );
 }
 
