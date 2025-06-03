@@ -169,32 +169,32 @@ const services = [
   {
     title: "Structural Demolition",
     description: "Complete demolition of buildings, structures, and facilities with precision and safety.",
-    icon: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/structural-icon.png"
+    icon: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Demo/demolition-7861486.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvRGVtby9kZW1vbGl0aW9uLTc4NjE0ODYuc3ZnIiwiaWF0IjoxNzQ4OTc3NTIxLCJleHAiOjIzNzk2OTc1MjF9.3-k-DytklwkxJHA2CiJZKXW_ktVVsvgNO2JU1fqPbI4"
   },
   {
     title: "Environmental Remediation",
     description: "Safe removal and disposal of hazardous materials and environmental contaminants.",
-    icon: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/environmental-icon.png"
+    icon: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Demo/remediation-6473980.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvRGVtby9yZW1lZGlhdGlvbi02NDczOTgwLnN2ZyIsImlhdCI6MTc0ODk3NzY0MSwiZXhwIjoyMzc5Njk3NjQxfQ.OBwKSSO-oYejEAF0vvFE06rLZHJ-SwIYUKYyIHV8m_w"
   },
   {
     title: "Site Clearing",
     description: "Comprehensive clearing of sites including vegetation, debris, and structure removal.",
-    icon: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/clearing-icon.png"
+    icon: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Demo/site%20clearing.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvRGVtby9zaXRlIGNsZWFyaW5nLnN2ZyIsImlhdCI6MTc0ODk3NzY1OSwiZXhwIjoyMzc5Njk3NjU5fQ.xtqQrTF416FPL3O-GtVkeT8BY_hAc7QHm0fFGN0LqN0"
   },
   {
     title: "Selective Demolition",
     description: "Precise removal of specific building components while preserving surrounding structures.",
-    icon: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/selective-icon.png"
+    icon: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Demo/demolition%202-6272440.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvRGVtby9kZW1vbGl0aW9uIDItNjI3MjQ0MC5zdmciLCJpYXQiOjE3NDg5Nzc1OTAsImV4cCI6MjM3OTY5NzU5MH0.Ghci-yDOTXBDQAx_4TcE_RG2WCb1A7StLbIcEXz-Hwg"
   },
   {
     title: "Material Recovery",
     description: "Salvage and recycling of valuable materials from demolition projects.",
-    icon: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/recovery-icon.png"
+    icon: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Demo/recovery-7888511.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvRGVtby9yZWNvdmVyeS03ODg4NTExLnN2ZyIsImlhdCI6MTc0ODk3NzYwNSwiZXhwIjoyMzc5Njk3NjA1fQ.vKCrmP_b857kkb3Pd_TIzQq07LFnHsXXbrQ1LX1EzW4"
   },
   {
     title: "Project Management",
     description: "Expert oversight and coordination of complex demolition projects from start to finish.",
-    icon: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/management-icon.png"
+    icon: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Civil/projectmanagement.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvQ2l2aWwvcHJvamVjdG1hbmFnZW1lbnQuc3ZnIiwiaWF0IjoxNzQ4OTc3Njg1LCJleHAiOjIzNzk2OTc2ODV9._ZWwvk038QMn27knioGXuNcwSBFXOkwqmx7t-1INWnc"
   }
 ];
 
