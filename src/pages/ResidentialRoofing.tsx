@@ -1,9 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 
 const ResidentialRoofing = () => {
   return (
     <div className="min-h-screen">
+      <SEO 
+        title="RESIDENTIAL ROOFING"
+        description="Complete residential roofing services in Monroe, GA including repairs, replacements, and maintenance. Expert handling of insurance claims with major providers."
+        canonicalUrl="https://gecon.com/residential-roofing"
+      />
       {/* Hero Section */}
       <section 
         className="relative h-[500px] bg-cover bg-center" 

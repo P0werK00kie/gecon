@@ -1,9 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 
 const Demolition = () => {
   return (
     <div className="min-h-screen">
+      <SEO 
+        title="DEMOLITION"
+        description="Professional demolition and deconstruction services with thorough planning and modern mechanical resources. Expert team of engineers, operators, and management specialists."
+        canonicalUrl="https://gecon.com/demolition"
+      />
       {/* Hero Section */}
       <section 
         className="relative h-[500px] bg-cover bg-center" 

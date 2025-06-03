@@ -1,9 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 
 const CivilConstruction = () => {
   return (
     <div className="min-h-screen">
+      <SEO 
+        title="CIVIL CONSTRUCTION"
+        description="Elite civil construction services including infrastructure development, water management, environmental projects, and utility infrastructure. Professional management and contracting services for federal and local governments."
+        canonicalUrl="https://gecon.com/civil-construction"
+      />
       {/* Hero Section */}
       <section 
         className="relative h-[500px] bg-cover bg-center" 

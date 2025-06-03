@@ -1,9 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 
 const CommercialRoofing = () => {
   return (
     <div className="min-h-screen">
+      <SEO 
+        title="COMMERCIAL ROOFING"
+        description="Expert commercial roofing services including repairs, re-roofing, maintenance programs, and complete roof overhauls. Experienced professionals dedicated to excellent craftsmanship."
+        canonicalUrl="https://gecon.com/commercial-roofing"
+      />
       {/* Hero Section */}
       <section 
         className="relative h-[500px] bg-cover bg-center" 

@@ -1,9 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 
 const Opportunities = () => {
   return (
     <div className="min-h-screen">
+      <SEO 
+        title="OPPORTUNITIES"
+        description="Join Georgia Environmental Construction as a subcontractor. Discover opportunities in emergency response, civil construction, demolition, and more."
+        canonicalUrl="https://gecon.com/opportunities"
+      />
       {/* Hero Section */}
       <section 
         className="relative h-[500px] bg-cover bg-center" 

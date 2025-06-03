@@ -1,8 +1,15 @@
 import React from 'react';
+import SEO from '../components/SEO';
 
 const Privacy = () => {
   return (
     <div className="min-h-screen">
+      <SEO 
+        title="PRIVACY POLICY"
+        description="Georgia Environmental Construction's privacy policy. Learn how we collect, use, and protect your personal information."
+        canonicalUrl="https://gecon.com/privacy"
+        noindex={true}
+      />
       {/* Hero Section */}
       <section 
         className="relative h-[300px] bg-cover bg-center" 

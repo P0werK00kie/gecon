@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import ContactForm from '../components/ContactForm';
 
@@ -16,6 +17,11 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO 
+        title="CONTACT"
+        description="Contact Georgia Environmental Construction for all your construction, disaster recovery, and environmental service needs. Available 24/7 for emergency response."
+        canonicalUrl="https://gecon.com/contact"
+      />
       {/* Hero Section */}
       <section 
         className="relative h-[500px] bg-cover bg-center" 
