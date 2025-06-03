@@ -97,43 +97,27 @@ const CivilConstruction = () => {
           </h2>
           
           <div className="max-w-2xl mx-auto">
-            <form className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <input
-                  type="text"
-                  placeholder="Name"
-                  className="w-full p-3 border-b border-[#454d53] bg-transparent focus:outline-none focus:border-[#075f2c]"
-                />
-                <input
-                  type="email"
-                  placeholder="Email"
-                  className="w-full p-3 border-b border-[#454d53] bg-transparent focus:outline-none focus:border-[#075f2c]"
-                />
-                <input
-                  type="tel"
-                  placeholder="Phone"
-                  className="w-full p-3 border-b border-[#454d53] bg-transparent focus:outline-none focus:border-[#075f2c]"
-                />
-                <input
-                  type="text"
-                  placeholder="Company"
-                  className="w-full p-3 border-b border-[#454d53] bg-transparent focus:outline-none focus:border-[#075f2c]"
-                />
-              </div>
-              
-              <textarea
-                placeholder="Project Details"
-                rows={4}
-                className="w-full p-3 border-b border-[#454d53] bg-transparent focus:outline-none focus:border-[#075f2c]"
-              ></textarea>
-              
-              <button 
-                type="submit"
-                className="bg-[#075f2c] text-white py-3 px-8 font-arial text-lg hover:bg-[#064723] transition-colors"
+            <div className="bg-white p-8 rounded-lg shadow-md" style={{ height: '465px' }}>
+              <iframe
+                src="https://api.leadconnectorhq.com/widget/form/QHchmhm9Q0sSN1yWStXw"
+                style={{ width:'100%', height:'100%', border:'none', borderRadius:'3px' }}
+                id="inline-QHchmhm9Q0sSN1yWStXw" 
+                data-layout="{'id':'INLINE'}"
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="Request a consultation"
+                data-height="465"
+                data-layout-iframe-id="inline-QHchmhm9Q0sSN1yWStXw"
+                data-form-id="QHchmhm9Q0sSN1yWStXw"
+                title="Request a consultation"
               >
-                SUBMIT REQUEST
-              </button>
-            </form>
+              </iframe>
+              <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+            </div>
           </div>
         </div>
       </section>
