@@ -169,12 +169,12 @@ const capabilities = [
   {
     title: "Infrastructure Development",
     description: "Roads, bridges, and transportation systems built to the highest standards of quality and safety.",
-    icon: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/infrastructure-icon.png"
+    icon: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Civil/infrastructure-7736249.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvQ2l2aWwvaW5mcmFzdHJ1Y3R1cmUtNzczNjI0OS5zdmciLCJpYXQiOjE3NDg5NzY0MjgsImV4cCI6MjM3OTY5NjQyOH0.gEN4gVopAujyjZd56LA0BwAsDZQ8DHyMgxAHYR32wcw"
   },
   {
     title: "Water Management",
     description: "Levees, dams, and flood control systems designed to protect communities and natural resources.",
-    icon: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/water-icon.png"
+    icon: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Civil/water.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvQ2l2aWwvd2F0ZXIuc3ZnIiwiaWF0IjoxNzQ4OTc2Mzk2LCJleHAiOjIzNzk2OTYzOTZ9.5e-f_R9EGlMDsamU1ZYTiEE9b28Epv59Ef7za4Z06aM"
   },
   {
     title: "Environmental Projects",
@@ -184,17 +184,17 @@ const capabilities = [
   {
     title: "Utility Infrastructure",
     description: "Installation and maintenance of water, sewer, gas, and electrical utility systems.",
-    icon: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/utility-icon.png"
+    icon: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Civil/utility-6185891.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvQ2l2aWwvdXRpbGl0eS02MTg1ODkxLnN2ZyIsImlhdCI6MTc0ODk3NjQxNCwiZXhwIjoyMzc5Njk2NDE0fQ.QTkwURiNZKZLGb-18gPEybR5w2Rn3dG8fRpagMRfOOg"
   },
   {
     title: "Site Development",
     description: "Comprehensive site preparation, grading, excavation, and foundation work.",
-    icon: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/site-icon.png"
+    icon: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Civil/site%20developement.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvQ2l2aWwvc2l0ZSBkZXZlbG9wZW1lbnQuc3ZnIiwiaWF0IjoxNzQ4OTc2MzgwLCJleHAiOjIzNzk2OTYzODB9.m7nROsjCPmVDaVOTMOdSND9aKh4gRnTd3r47nH0nNos"
   },
   {
     title: "Project Management",
     description: "Expert oversight and coordination of complex civil construction projects from start to finish.",
-    icon: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/05/management-icon.png"
+    icon: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Services/Civil/projectmanagement.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU2VydmljZXMvQ2l2aWwvcHJvamVjdG1hbmFnZW1lbnQuc3ZnIiwiaWF0IjoxNzQ4OTc2MzYzLCJleHAiOjIzNzk2OTYzNjN9.kezU9TaWpQPfk2EZ4zdqprwMt9otd4tWbzN-jjySoKY"
   }
 ];
 
