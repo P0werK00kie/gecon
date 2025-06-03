@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
-import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
   const mapStyles = {
@@ -41,7 +40,27 @@ const Contact = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <ContactForm />
+              <div className="bg-white p-8 rounded-lg shadow-md" style={{ height: '637px' }}>
+                <iframe
+                  src="https://api.leadconnectorhq.com/widget/form/gOXBr5zOOgGouLc25NfM"
+                  style={{ width:'100%', height:'100%', border:'none', borderRadius:'3px' }}
+                  id="inline-gOXBr5zOOgGouLc25NfM" 
+                  data-layout="{'id':'INLINE'}"
+                  data-trigger-type="alwaysShow"
+                  data-trigger-value=""
+                  data-activation-type="alwaysActivated"
+                  data-activation-value=""
+                  data-deactivation-type="neverDeactivate"
+                  data-deactivation-value=""
+                  data-form-name="Contact Page"
+                  data-height="637"
+                  data-layout-iframe-id="inline-gOXBr5zOOgGouLc25NfM"
+                  data-form-id="gOXBr5zOOgGouLc25NfM"
+                  title="Contact Page"
+                >
+                </iframe>
+                <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+              </div>
             </motion.div>
             
             {/* Contact Information */}
