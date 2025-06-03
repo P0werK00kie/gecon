@@ -99,24 +99,24 @@ const Demolition = () => {
           <div className="max-w-2xl mx-auto">
             <div className="bg-white p-8 rounded-lg shadow-md" style={{ height: '465px' }}>
               <iframe
-                src="https://api.leadconnectorhq.com/widget/form/QHchmhm9Q0sSN1yWStXw"
-                style={{ width:'100%', height:'100%', border:'none', borderRadius:'3px' }}
-                id="inline-QHchmhm9Q0sSN1yWStXw" 
-                data-layout="{'id':'INLINE'}"
-                data-trigger-type="alwaysShow"
-                data-trigger-value=""
-                data-activation-type="alwaysActivated"
-                data-activation-value=""
-                data-deactivation-type="neverDeactivate"
-                data-deactivation-value=""
-                data-form-name="Request a consultation"
-                data-height="465"
-                data-layout-iframe-id="inline-QHchmhm9Q0sSN1yWStXw"
-                data-form-id="QHchmhm9Q0sSN1yWStXw"
-                title="Request a consultation"
-              >
-              </iframe>
-              <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+                  src="https://api.leadconnectorhq.com/widget/form/QHchmhm9Q0sSN1yWStXw"
+                  style="width:100%;height:100%;border:none;border-radius:3px"
+                  id="inline-QHchmhm9Q0sSN1yWStXw" 
+                  data-layout="{'id':'INLINE'}"
+                  data-trigger-type="alwaysShow"
+                  data-trigger-value=""
+                  data-activation-type="alwaysActivated"
+                  data-activation-value=""
+                  data-deactivation-type="neverDeactivate"
+                  data-deactivation-value=""
+                  data-form-name="Request a consultation"
+                  data-height="465"
+                  data-layout-iframe-id="inline-QHchmhm9Q0sSN1yWStXw"
+                  data-form-id="QHchmhm9Q0sSN1yWStXw"
+                  title="Request a consultation"
+                      >
+                </iframe>
+<script src="https://link.msgsndr.com/js/form_embed.js"></script>
             </div>
           </div>
         </div>
