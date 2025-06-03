@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
+import { supabase } from '../lib/supabase';
 
 interface FormData {
   name: string;
@@ -9,12 +10,29 @@ interface FormData {
 }
 
 const ContactForm: React.FC = () => {
-  const { register, handleSubmit, formState: { errors } } = useForm<FormData>();
+  const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'success' | 'error' | null>(null);
   
-  const onSubmit = (data: FormData) => {
-    console.log(data);
-    // In a real implementation, this would send data to a server
-    alert('Form submitted successfully!');
+  const onSubmit = async (data: FormData) => {
+    setIsSubmitting(true);
+    setSubmitStatus(null);
+    
+    try {
+      const { error } = await supabase
+        .from('contact_submissions')
+        .insert([data]);
+      
+      if (error) throw error;
+      
+      setSubmitStatus('success');
+      reset();
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
   
   return (
@@ -66,21 +84,31 @@ const ContactForm: React.FC = () => {
           placeholder="How can we help you?"
           rows={4}
           className="w-full p-3 border-b border-[#454d53] focus:outline-none focus:border-[#075f2c]"
-          {...register('message')}
+          {...register('message', { required: 'Message is required' })}
         ></textarea>
+        {errors.message && <span className="text-red-500 text-sm">{errors.message.message}</span>}
       </div>
       
-      <div className="mb-6">
-        <div className="recaptcha-placeholder h-[78px] bg-gray-100 flex items-center justify-center text-gray-500 text-sm">
-          reCAPTCHA would be placed here
+      {submitStatus === 'success' && (
+        <div className="mb-4 p-3 bg-green-100 text-green-700 rounded">
+          Thank you for your message! We'll get back to you soon.
         </div>
-      </div>
+      )}
+      
+      {submitStatus === 'error' && (
+        <div className="mb-4 p-3 bg-red-100 text-red-700 rounded">
+          There was an error submitting your message. Please try again.
+        </div>
+      )}
       
       <button 
         type="submit"
-        className="w-full bg-[#075f2c] text-white py-3 font-medium hover:bg-[#064723] transition duration-300"
+        disabled={isSubmitting}
+        className={`w-full bg-[#075f2c] text-white py-3 font-medium transition duration-300 ${
+          isSubmitting ? 'opacity-50 cursor-not-allowed' : 'hover:bg-[#064723]'
+        }`}
       >
-        Submit
+        {isSubmitting ? 'Submitting...' : 'Submit'}
       </button>
     </form>
   );
