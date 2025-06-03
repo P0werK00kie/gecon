@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import ServiceRequestForm from '../components/ServiceRequestForm';
 
 const TreeServices = () => {
   return (
@@ -70,38 +71,11 @@ const TreeServices = () => {
       {/* Contact Section */}
       <section className="py-16 px-4 md:px-16 bg-gray-50">
         <div className="container mx-auto text-center">
-          <h2 className="font-helvetica text-4xl md:text-6xl font-semibold mb-12">
-            REQUEST A CONSULTATION
-          </h2>
-          
           <div className="max-w-2xl mx-auto">
-            <form className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <input
-                  type="text"
-                  placeholder="Name"
-                  className="w-full p-3 border-b border-[#454d53] bg-transparent focus:outline-none focus:border-[#075f2c]"
-                />
-                <input
-                  type="email"
-                  placeholder="Email"
-                  className="w-full p-3 border-b border-[#454d53] bg-transparent focus:outline-none focus:border-[#075f2c]"
-                />
-              </div>
-              
-              <textarea
-                placeholder="Message"
-                rows={4}
-                className="w-full p-3 border-b border-[#454d53] bg-transparent focus:outline-none focus:border-[#075f2c]"
-              ></textarea>
-              
-              <button 
-                type="submit"
-                className="bg-[#075f2c] text-white py-3 px-8 font-arial text-lg hover:bg-[#064723] transition-colors"
-              >
-                SUBMIT REQUEST
-              </button>
-            </form>
+            <ServiceRequestForm 
+              serviceType="tree"
+              title="REQUEST A CONSULTATION"
+            />
           </div>
         </div>
       </section>
