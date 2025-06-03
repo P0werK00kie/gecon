@@ -33,8 +33,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-
-      {/* Team Section */}
+      {/*}
       <section className="py-16 px-4 md:px-16 bg-gray-50">
         <div className="container mx-auto">
           <div className="text-center mb-16">
@@ -53,6 +52,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+      */}
     </div>
   );
 };
@@ -116,7 +116,7 @@ const teamMembers = [
   },
   {
     name: "John Breedlove",
-    title: "CHIEF FINANCIAL OFFICER",
+    title: "IT Administrator",
     image: "https://gecon-roofing.websitepro.hosting/wp-content/uploads/2021/02/myron-gecon_orig.jpg",
     email: "myron@geconcorp.com"
   },
