@@ -40,9 +40,9 @@ const SEO: React.FC<SEOProps> = ({
       
       {/* Robots */}
       {noindex ? (
-        <meta name="robots" content="noindex, nofollow" />
+        <meta name="robots\" content="noindex, nofollow" />
       ) : (
-        <meta name="robots" content="index, follow" />
+        <meta name="robots\" content="index, follow" />
       )}
       
       {/* JSON-LD structured data */}
