@@ -19,10 +19,10 @@ const TestimonialsSection: React.FC = () => {
             <h2 className="text-4xl md:text-5xl font-semibold mb-6">WHAT OUR CLIENTS SAY</h2>
             
             <blockquote className="text-xl italic font-medium mb-6">
-              "Gecon was wonderful to work with. Their responsiveness during an emergency situation was amazing, and they performed their job with efficiency. This is a sample for a social media review feed. Live reviews will be shown here."
+"I would like to take this opportunity to thank you for the excellent experience... Gecon Construction... handled every aspect of the project, along with its complexities, with professionalism and integrity; making it an enthusiastic process and well-earned success... I look forward to working together with Gecon Construction in the future." 
             </blockquote>
             
-            <p className="mb-8">John Smith via Facebook</p>
+            <p className="mb-8">Kyle Young</p>
             
             <a href="/about-us" className="btn btn-dark">
               READ MORE
