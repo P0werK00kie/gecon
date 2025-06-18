@@ -61,8 +61,8 @@ const NewsletterForm: React.FC = () => {
       <button 
         type="submit"
         disabled={isSubmitting}
-        className={`bg-[#075f2c] text-white py-3 px-6 uppercase font-medium transition duration-300 w-full md:w-auto ${
-          isSubmitting ? 'opacity-50 cursor-not-allowed' : 'hover:bg-[#064723]'
+        className={`btn btn-primary w-full md:w-auto ${
+          isSubmitting ? 'opacity-50 cursor-not-allowed' : ''
         }`}
       >
         {isSubmitting ? 'SUBMITTING...' : 'SUBMIT'}

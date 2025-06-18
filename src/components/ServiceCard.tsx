@@ -16,7 +16,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, imageUrl, link }) => {
       />
       
       <div className="desc flex flex-col items-center justify-center text-center">
-        <h2 className="text-white font-['Barlow_Condensed'] font-medium">{title}</h2>
+        <h2 className="text-white">{title}</h2>
         <div className="line group-hover:bg-white"></div>
       </div>
       

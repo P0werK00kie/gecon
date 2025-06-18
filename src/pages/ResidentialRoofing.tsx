@@ -17,7 +17,7 @@ const ResidentialRoofing = () => {
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
-          <h1 className="text-white font-barlowCondensed text-6xl md:text-8xl font-medium">
+          <h1 className="text-white">
             RESIDENTIAL ROOFING
           </h1>
         </div>
@@ -47,7 +47,7 @@ const ResidentialRoofing = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <h2 className="font-helvetica text-4xl md:text-5xl font-semibold mb-8">
+              <h2 className="mb-8">
                 RESIDENTIAL ROOFING{' '}
                 <span className="text-[#075f2c]">IN THE MONROE, GA AREA</span>
               </h2>
@@ -80,7 +80,7 @@ const ResidentialRoofing = () => {
       <section className="py-16 px-4 md:px-16 bg-gray-50">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="font-helvetica text-4xl md:text-6xl font-semibold">
+            <h2>
               FREE ROOF INSPECTION
             </h2>
           </div>
@@ -134,7 +134,7 @@ const ResidentialRoofing = () => {
               
               <button 
                 type="submit"
-                className="bg-[#075f2c] text-white py-3 px-8 font-arial text-lg hover:bg-[#064723] transition-colors w-full"
+                className="btn btn-primary w-full"
               >
                 SUBMIT REQUEST
               </button>

@@ -33,20 +33,20 @@ class ErrorBoundaryClass extends Component<Props, State> {
       return (
         <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4">
           <div className="max-w-lg w-full bg-white rounded-lg shadow-md p-8 text-center">
-            <h2 className="text-3xl font-semibold text-gray-800 mb-4">Something went wrong</h2>
+            <h2 className="text-gray-800 mb-4">Something went wrong</h2>
             <p className="text-gray-600 mb-6">
               We apologize for the inconvenience. An unexpected error has occurred.
             </p>
             <div className="space-x-4">
               <button
                 onClick={this.handleRetry}
-                className="bg-[#075f2c] text-white px-6 py-2 rounded-md hover:bg-[#064723] transition-colors"
+                className="btn btn-primary"
               >
                 Try Again
               </button>
               <a
                 href="/"
-                className="inline-block bg-gray-200 text-gray-700 px-6 py-2 rounded-md hover:bg-gray-300 transition-colors"
+                className="btn btn-secondary"
               >
                 Go Home
               </a>
