@@ -4,7 +4,7 @@ import ContactForm from './ContactForm';
 
 const TestimonialsSection: React.FC = () => {
   return (
-    <section className="py-16 px-4 md:px-16 bg-gray-100 bg-opacity-60">
+    <section className="section-skew-both py-16 px-4 md:px-16 bg-gray-100 bg-opacity-60">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-12">
           {/* Testimonials */}

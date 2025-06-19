@@ -37,7 +37,7 @@ const services = [
 
 const ServicesSection: React.FC = () => {
   return (
-    <section className="py-16 px-4 md:px-16 bg-gray-50">
+    <section className="section-skew-both py-16 px-4 md:px-16 bg-gray-50">
       <div className="container mx-auto">
         <motion.div 
           className="text-center mb-12"
@@ -47,7 +47,7 @@ const ServicesSection: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <span className="inline-block px-2 py-1 bg-[#075f2c] text-white font-medium mb-4">SERVICES</span>
-          <h2 className="text-4xl md:text-6xl font-semibold">RECOVER &amp; REBUILD</h2>
+          <h2 className="text-4xl md:text-6xl font-semibold">RECOVER & REBUILD</h2>
         </motion.div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
