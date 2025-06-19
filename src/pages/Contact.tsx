@@ -29,7 +29,7 @@ const Contact = () => {
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
-          <h1 className="text-white font-barlowCondensed text-6xl md:text-8xl font-medium">
+          <h1 className="text-white">
             CONTACT
           </h1>
         </div>
@@ -58,7 +58,7 @@ const Contact = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <h2 className="font-helvetica text-4xl md:text-5xl font-semibold mb-8">
+              <h2 className="mb-8">
                 Move <span className="text-[#075f2c]">Forward</span>
               </h2>
               
@@ -110,7 +110,7 @@ const Contact = () => {
       <section className="py-16 px-4 md:px-16 bg-gray-50">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="font-helvetica text-4xl md:text-6xl font-semibold">
+            <h2>
               FIND US
             </h2>
           </div>
@@ -132,7 +132,7 @@ const Contact = () => {
       {/* Emergency Contact Section */}
       <section className="py-16 px-4 md:px-16 bg-[#075f2c] text-white">
         <div className="container mx-auto text-center">
-          <h2 className="font-helvetica text-white text-4xl md:text-5xl font-semibold mb-8">
+          <h2 className="text-white mb-8">
             EMERGENCY RESPONSE
           </h2>
           
@@ -142,7 +142,7 @@ const Contact = () => {
           
           <a 
             href="tel:+1678-269-1114" 
-            className="inline-block bg-white text-[#075f2c] py-3 px-8 font-arial text-xl font-bold hover:bg-gray-100 transition-colors rounded-md"
+            className="btn btn-primary"
           >
             678.269.1114
           </a>

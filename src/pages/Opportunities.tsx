@@ -17,7 +17,7 @@ const Opportunities = () => {
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
-          <h1 className="text-white font-barlowCondensed text-6xl md:text-8xl font-medium">
+          <h1 className="text-white">
             OPPORTUNITIES
           </h1>
         </div>
@@ -47,7 +47,7 @@ const Opportunities = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <h2 className="font-helvetica text-4xl md:text-5xl font-semibold mb-8">
+              <h2 className="mb-8">
                 Become a Georgia Environmental{' '}
                 <span className="text-[#075f2c]">Construction SUBCONTRACTOR</span>
               </h2>
@@ -97,7 +97,7 @@ const Opportunities = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              <h3 className="text-2xl font-bold mb-4">Insurance Requirements</h3>
+              <h3 className="mb-4">Insurance Requirements</h3>
               <p className="mb-4">
                 Subcontractors shall maintain in effect for the duration of any subcontract agreement with Gecon the following insurance policies:
               </p>
@@ -121,7 +121,7 @@ const Opportunities = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <h3 className="text-2xl font-bold mb-4">Worker's Compensation</h3>
+              <h3 className="mb-4">Worker's Compensation</h3>
               <p className="mb-4">
                 Worker's Compensation must be statutory to the state in which work is being performed. Owners and officers must be covered by the WC policy.
               </p>
@@ -161,7 +161,7 @@ const Opportunities = () => {
             >
               <a 
                 href="/contact" 
-                className="inline-block bg-[#454d53] text-white px-8 py-3 font-arial text-lg hover:bg-[#075f2c] transition-colors"
+                className="btn btn-dark"
               >
                 APPLY NOW
               </a>
@@ -181,7 +181,7 @@ const Opportunities = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h3 className="text-2xl font-semibold mb-4 text-[#075f2c]">Benefits of Partnership</h3>
+              <h3 className="text-[#075f2c] mb-4">Benefits of Partnership</h3>
               <ul className="space-y-2 text-[#454d53]">
                 <li>• Consistent work opportunities</li>
                 <li>• Competitive compensation</li>
@@ -198,7 +198,7 @@ const Opportunities = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              <h3 className="text-2xl font-semibold mb-4 text-[#075f2c]">Required Documentation</h3>
+              <h3 className="text-[#075f2c] mb-4">Required Documentation</h3>
               <ul className="space-y-2 text-[#454d53]">
                 <li>• Proof of insurance</li>
                 <li>• Business licenses</li>
@@ -216,7 +216,7 @@ const Opportunities = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <h3 className="text-2xl font-semibold mb-4 text-[#075f2c]">Application Process</h3>
+              <h3 className="text-[#075f2c] mb-4">Application Process</h3>
               <ol className="space-y-2 text-[#454d53] list-decimal list-inside">
                 <li>Submit initial application</li>
                 <li>Documentation review</li>

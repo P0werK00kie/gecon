@@ -18,7 +18,7 @@ const SubcontractorSection: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-3xl text-white mb-6 font-['Barlow_Condensed']">
+            <h3 className="text-white mb-6">
               ARE YOU A SUB-CONTRACTOR?
             </h3>
             

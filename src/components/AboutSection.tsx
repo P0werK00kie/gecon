@@ -23,7 +23,7 @@ const AboutSection: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-3xl md:text-5xl font-semibold mb-6">
+            <h2 className="mb-6">
               BUILDING A LEGACY OF <span className="text-[#075f2c]">EXCELLENCE.</span>
             </h2>
             

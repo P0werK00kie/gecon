@@ -14,7 +14,7 @@ const AboutUs = () => {
       <section className="relative h-[500px] bg-cover bg-center" style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/About%20Us/Header/GeconSubHeaderImage.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvQWJvdXQgVXMvSGVhZGVyL0dlY29uU3ViSGVhZGVySW1hZ2Uud2VicCIsImlhdCI6MTc0ODYyNDA2NywiZXhwIjoyMzc5MzQ0MDY3fQ.ddh8Obut48ZSxMvebR_BZ2Zp7yWD_y3MgSkZP1UoEfI')" }}>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
-          <h1 className="text-white font-barlowCondensed text-6xl md:text-8xl font-medium">
+          <h1 className="text-white">
             ABOUT US
           </h1>
         </div>
@@ -28,7 +28,7 @@ const AboutUs = () => {
               <div className="h-full bg-cover bg-center rounded-lg" style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/About%20Us/Header/gecon_giving_about.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvQWJvdXQgVXMvSGVhZGVyL2dlY29uX2dpdmluZ19hYm91dC53ZWJwIiwiaWF0IjoxNzQ4NjI0MjAxLCJleHAiOjIzNzkzNDQyMDF9.gQNg6sd_M4iOh8QrfeqoPVViXDGat4-pSx1AistjCno')" }}></div>
             </div>
             <div className="w-full md:w-1/2 px-0 md:px-8">
-              <h2 className="font-helvetica text-4xl md:text-5xl font-semibold mb-8">
+              <h2 className="mb-8">
                 GEORGIA ENVIRONMENTAL CONSTRUCTION{' '}
                 <span className="text-[#075f2c]">MEETS ADVERSITY HEAD ON.</span>
               </h2>
@@ -87,7 +87,7 @@ const TeamMember: React.FC<TeamMemberProps> = ({ name, title, image, email }) =>
         />
       </div>
       <div className="p-6 text-center">
-        <h4 className="font-barlowCondensed text-xl font-medium text-[#0A122A] mb-2">{name}</h4>
+        <h4 className="text-[#0A122A] mb-2">{name}</h4>
         <p className="font-arial text-[#454d53] text-sm mb-4">{title}</p>
         <hr className="w-12 mx-auto border-t-2 border-[#075f2c] mb-4" />
         <a 

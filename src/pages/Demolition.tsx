@@ -17,7 +17,7 @@ const Demolition = () => {
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
-          <h1 className="text-white font-barlowCondensed text-6xl md:text-8xl font-medium">
+          <h1 className="text-white">
             DEMOLITION
           </h1>
         </div>
@@ -47,8 +47,8 @@ const Demolition = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <h2 className="font-helvetica text-4xl md:text-5xl font-semibold mb-8">
-                DEMOLITION &amp;{' '}
+              <h2 className="mb-8">
+                DEMOLITION &{' '}
                 <span className="text-[#075f2c]">DECONSTRUCTION</span>
               </h2>
               
@@ -64,7 +64,7 @@ const Demolition = () => {
                 <div className="mt-8">
                   <a 
                     href="/contact" 
-                    className="inline-block bg-[#454d53] text-white px-8 py-3 font-arial text-lg hover:bg-[#075f2c] transition-colors"
+                    className="btn btn-dark"
                   >
                     LET'S WORK TOGETHER
                   </a>
@@ -82,7 +82,7 @@ const Demolition = () => {
             <span className="inline-block px-4 py-2 bg-[#075f2c] text-white font-arial mb-4">
               SERVICES
             </span>
-            <h2 className="font-helvetica text-4xl md:text-6xl font-semibold">
+            <h2>
               OUR CAPABILITIES
             </h2>
           </div>
@@ -98,7 +98,7 @@ const Demolition = () => {
       {/* Contact Section */}
       <section className="py-16 px-4 md:px-16">
         <div className="container mx-auto text-center">
-          <h2 className="font-helvetica text-4xl md:text-6xl font-semibold mb-12">
+          <h2 className="mb-12">
             REQUEST A CONSULTATION
           </h2>
           
@@ -135,7 +135,7 @@ const Demolition = () => {
               
               <button 
                 type="submit"
-                className="bg-[#075f2c] text-white py-3 px-8 font-arial text-lg hover:bg-[#064723] transition-colors"
+                className="btn btn-primary"
               >
                 SUBMIT REQUEST
               </button>
@@ -165,7 +165,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon }) =
       <div className="text-[#075f2c] mb-4">
         <img src={icon} alt={title} className="w-16 h-16 object-contain" />
       </div>
-      <h3 className="font-barlowCondensed text-2xl font-medium text-[#0A122A] mb-4">{title}</h3>
+      <h3 className="text-[#0A122A] mb-4">{title}</h3>
       <p className="font-arial text-[#454d53]">{description}</p>
     </motion.div>
   );

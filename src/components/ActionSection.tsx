@@ -52,7 +52,7 @@ const ActionSection: React.FC = () => {
               className="mb-12"
             >
               <span className="inline-block px-2 py-1 bg-[#075f2c] text-white font-medium mb-4">RECENT EVENTS</span>
-              <h2 className="text-4xl md:text-6xl font-semibold text-white">GECON IN ACTION</h2>
+              <h2 className="text-white">GECON IN ACTION</h2>
             </motion.div>
             
             <div className="grid grid-cols-2 gap-8">
@@ -85,7 +85,7 @@ const ActionSection: React.FC = () => {
               transition={{ duration: 0.6 }}
               className="bg-[#191e28] p-8 rounded-lg shadow-lg"
             >
-              <h3 className="text-3xl text-white font-medium mb-1">2020</h3>
+              <h3 className="text-white mb-1">2020</h3>
               <p>
                 In August 2020, CAT 4 Hurricane Laura, one of the most powerful to strike the Gulf Coast in decades, hit the Lake Charles, Louisiana area, causing widespread destruction from devastating winds and heavy rain. In September 2020, CAT 2 Hurricane Sally struck the Gulf Shores, Alabama area, and left immediate devastation in its wake. Gecon is currently mobilizing dozens of relief crews to aid the recovery efforts on the coasts of Louisiana and Alabama. Stay tuned for updates.
               </p>
@@ -98,7 +98,7 @@ const ActionSection: React.FC = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="bg-[#191e28] p-8 rounded-lg shadow-lg"
             >
-              <h3 className="text-3xl text-white font-medium mb-4">2018</h3>
+              <h3 className="text-white mb-4">2018</h3>
               <p>
                 Historic hurricane Michael, the third most intense hurricane to make landfall in the United States; and its fury engulfed the whole of Florida and most of Georgia in the beginning of October 2018. While Michael was still raging, Gecon mobilized recovery crews from all across the nation to immediately begin storm recovery and relief for the citizens of Florida. When Hurricane Florence hit September 2018, Gecon made it their mission to help North Carolina military communities and base operations rebuild that has continued into 2019, with no sign of slowing down until our North Carolina armed forces are thriving again. Stay in touch for more updates.
               </p>

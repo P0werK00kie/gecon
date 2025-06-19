@@ -15,7 +15,7 @@ const HeroSlider: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-white font-['Barlow_Condensed'] text-5xl md:text-7xl lg:text-[120px] font-light leading-tight">
+            <h1 className="text-white leading-tight">
               BUILDING<br />
               TOMORROW<br />
               <span className="text-[#075f2c]">TOGETHER</span>

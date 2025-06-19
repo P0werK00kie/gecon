@@ -257,7 +257,7 @@ const ServiceRequestForm: React.FC<ServiceRequestFormProps> = ({ serviceType, ti
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
       {title && (
         <div className="text-center mb-12">
-          <h2 className="font-helvetica text-4xl md:text-6xl font-semibold">
+          <h2>
             {title}
           </h2>
         </div>
@@ -280,8 +280,8 @@ const ServiceRequestForm: React.FC<ServiceRequestFormProps> = ({ serviceType, ti
       <button
         type="submit"
         disabled={isSubmitting}
-        className={`w-full bg-[#075f2c] text-white py-3 font-medium transition duration-300 ${
-          isSubmitting ? 'opacity-50 cursor-not-allowed' : 'hover:bg-[#064723]'
+        className={`btn btn-primary w-full ${
+          isSubmitting ? 'opacity-50 cursor-not-allowed' : ''
         }`}
       >
         {isSubmitting ? 'Submitting...' : 'SUBMIT REQUEST'}

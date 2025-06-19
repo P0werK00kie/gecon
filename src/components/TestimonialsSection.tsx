@@ -16,7 +16,7 @@ const TestimonialsSection: React.FC = () => {
             transition={{ duration: 0.6 }}
           >
             <span className="inline-block px-2 py-1 bg-[#075f2c] text-white font-medium mb-4">REVIEWS</span>
-            <h2 className="text-4xl md:text-5xl font-semibold mb-6">WHAT OUR CLIENTS SAY</h2>
+            <h2 className="mb-6">WHAT OUR CLIENTS SAY</h2>
             
             <blockquote className="text-xl italic font-medium mb-6">
 "I would like to take this opportunity to thank you for the excellent experience... Gecon Construction... handled every aspect of the project, along with its complexities, with professionalism and integrity; making it an enthusiastic process and well-earned success... I look forward to working together with Gecon Construction in the future." 

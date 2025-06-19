@@ -17,7 +17,7 @@ const Privacy = () => {
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
-          <h1 className="text-white font-barlowCondensed text-6xl md:text-8xl font-medium">
+          <h1 className="text-white">
             PRIVACY POLICY
           </h1>
         </div>
@@ -31,7 +31,7 @@ const Privacy = () => {
 
           {/* Table of Contents */}
           <div className="bg-gray-50 p-6 rounded-lg mb-12">
-            <h2 className="text-xl font-semibold mb-4 text-[#0A122A]">Table of Contents</h2>
+            <h2 className="mb-4 text-[#0A122A]">Table of Contents</h2>
             <nav>
               <ol className="list-decimal list-inside space-y-2 text-[#454d53]">
                 <li><a href="#introduction" className="hover:text-[#075f2c]">Introduction</a></li>
@@ -48,7 +48,7 @@ const Privacy = () => {
           {/* Content Sections */}
           <div className="space-y-12">
             <section id="introduction">
-              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">1. Introduction</h2>
+              <h2 className="mb-4 text-[#0A122A]">1. Introduction</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed">
                   GECON ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
@@ -57,7 +57,7 @@ const Privacy = () => {
             </section>
 
             <section id="information-collection">
-              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">2. Information Collection</h2>
+              <h2 className="mb-4 text-[#0A122A]">2. Information Collection</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed mb-4">
                   We collect information that you provide directly to us when you:
@@ -72,7 +72,7 @@ const Privacy = () => {
             </section>
 
             <section id="use-of-information">
-              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">3. Use of Information</h2>
+              <h2 className="mb-4 text-[#0A122A]">3. Use of Information</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed mb-4">
                   We use the information we collect to:
@@ -88,7 +88,7 @@ const Privacy = () => {
             </section>
 
             <section id="information-sharing">
-              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">4. Information Sharing</h2>
+              <h2 className="mb-4 text-[#0A122A]">4. Information Sharing</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed">
                   We do not sell, trade, or rent your personal information to third parties. We may share your information with trusted partners who assist us in operating our website, conducting our business, or servicing you, as long as these parties agree to keep this information confidential.
@@ -97,7 +97,7 @@ const Privacy = () => {
             </section>
 
             <section id="data-security">
-              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">5. Data Security</h2>
+              <h2 className="mb-4 text-[#0A122A]">5. Data Security</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed">
                   We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet or electronic storage is 100% secure.
@@ -106,7 +106,7 @@ const Privacy = () => {
             </section>
 
             <section id="your-rights">
-              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">6. Your Rights</h2>
+              <h2 className="mb-4 text-[#0A122A]">6. Your Rights</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed mb-4">
                   You have the right to:
@@ -122,7 +122,7 @@ const Privacy = () => {
             </section>
 
             <section id="contact-us">
-              <h2 className="text-2xl font-bold mb-4 text-[#0A122A]">7. Contact Us</h2>
+              <h2 className="mb-4 text-[#0A122A]">7. Contact Us</h2>
               <div className="prose max-w-none">
                 <p className="text-[#454d53] leading-relaxed mb-4">
                   If you have any questions about this Privacy Policy, please contact us at:
