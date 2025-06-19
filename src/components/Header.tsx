@@ -49,7 +49,7 @@ const Header: React.FC = () => {
           
           {/* Desktop Navigation */}
           <nav className="hidden md:block">
-            <ul className="flex space-x-6">
+            <ul className="flex items-center space-x-6">
               <li className="group">
                 <a 
                   href="/" 
@@ -77,8 +77,7 @@ const Header: React.FC = () => {
                 </a>
               </li>
               <li className="relative group">
-                <a 
-                  href="#" 
+                <button 
                   className={`font-barlow text-sm font-semibold tracking-wide flex items-center relative transition-colors duration-300 ${
                     isScrolled ? 'text-[#0A122A] hover:text-[#075f2c]' : 'text-white hover:text-white/90'
                   }`}
@@ -91,7 +90,7 @@ const Header: React.FC = () => {
                   <span className={`absolute bottom-0 left-0 w-full h-[2px] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100 ${
                     isScrolled ? 'bg-[#075f2c]' : 'bg-white'
                   }`}></span>
-                </a>
+                </button>
                 <ul className={`absolute left-0 mt-1 w-64 bg-white shadow-xl py-2 rounded-lg transform transition-all duration-200 ${
                   submenuOpen === 2 ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'
                 } md:group-hover:opacity-100 md:group-hover:translate-y-0 md:group-hover:pointer-events-auto`}>
