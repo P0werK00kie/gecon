@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const AboutSection: React.FC = () => {
   return (
-    <section className="section-skew-top py-24 px-4 md:px-16 bg-white">
+    <section className="py-24 px-4 md:px-16 bg-white">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-stretch gap-10">
           <motion.div 

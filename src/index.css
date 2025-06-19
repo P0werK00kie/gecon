@@ -136,39 +136,6 @@ h6 {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* Angled section transitions */
-.section-skew-top {
-  transform: skewY(-2deg);
-  margin-top: -60px;
-  padding-top: 80px;
-}
-
-.section-skew-top > .container {
-  transform: skewY(2deg);
-}
-
-.section-skew-bottom {
-  transform: skewY(2deg);
-  margin-bottom: -60px;
-  padding-bottom: 80px;
-}
-
-.section-skew-bottom > .container {
-  transform: skewY(-2deg);
-}
-
-.section-skew-both {
-  transform: skewY(-2deg);
-  margin-top: -60px;
-  margin-bottom: -60px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.section-skew-both > .container {
-  transform: skewY(2deg);
-}
-
 /* Services section */
 .service-card {
   position: relative;
@@ -265,22 +232,5 @@ footer {
   h3 {
     font-size: 28px;
     line-height: 28px;
-  }
-
-  /* Reduce skew effect on mobile for better readability */
-  .section-skew-top,
-  .section-skew-bottom,
-  .section-skew-both {
-    transform: skewY(-1deg);
-    margin-top: -30px;
-    margin-bottom: -30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .section-skew-top > .container,
-  .section-skew-bottom > .container,
-  .section-skew-both > .container {
-    transform: skewY(1deg);
   }
 }
