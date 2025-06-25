@@ -1,19 +1,32 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import SEO from '../components/SEO';
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
-  const mapStyles = {
-    height: "400px",
-    width: "100%"
-  };
-  
-  const defaultCenter = {
-    lat: 33.7947, // Monroe, GA coordinates
-    lng: -83.7130
-  };
+  const stats = [
+    {
+      icon: MapPin,
+      number: "1557 South Broad St.",
+      label: "Monroe, GA 30655"
+    },
+    {
+      icon: Phone,
+      number: "678.269.1114",
+      label: "24/7 Emergency Line"
+    },
+    {
+      icon: Mail,
+      number: "information@gecon.com",
+      label: "General Inquiries"
+    },
+    {
+      icon: Clock,
+      number: "Mon - Fri",
+      label: "9am - 5pm"
+    }
+  ];
 
   return (
     <div className="min-h-screen">
@@ -106,31 +119,38 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-16 px-4 md:px-16 bg-gray-50">
+      {/* Contact Stats Section */}
+      <section className="py-16 px-4 md:px-16 bg-[#075f2c]">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2>
-              FIND US
+            <h2 className="text-white mb-8">
+              GET IN TOUCH
             </h2>
           </div>
           
-          <div className="w-full h-[400px] bg-gray-200 rounded-lg overflow-hidden">
-            <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
-              <GoogleMap
-                mapContainerStyle={mapStyles}
-                zoom={15}
-                center={defaultCenter}
+          <div className="grid grid-cols-2 gap-6">
+            {stats.map((stat, index) => (
+              <motion.div 
+                key={index} 
+                className="text-center"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
               >
-                <Marker position={defaultCenter} />
-              </GoogleMap>
-            </LoadScript>
+                <div className="bg-[#075F2C]/20 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                  <stat.icon className="h-6 w-6 text-white" />
+                </div>
+                <div className="text-2xl font-bold text-white">{stat.number}</div>
+                <div className="text-sm text-gray-200">{stat.label}</div>
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* Emergency Contact Section */}
-      <section className="py-16 px-4 md:px-16 bg-[#075f2c] text-white">
+      <section className="py-16 px-4 md:px-16 bg-[#454d53] text-white">
         <div className="container mx-auto text-center">
           <h2 className="text-white mb-8">
             EMERGENCY RESPONSE
