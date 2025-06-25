@@ -25,6 +25,9 @@ const SEO: React.FC<SEOProps> = ({
       <meta name="description" content={description} />
       <link rel="canonical" href={canonicalUrl} />
       
+      {/* Bing verification */}
+      <meta name="msvalidate.01" content="D3C5993A741EFAC120E16C794DCF4511" />
+      
       {/* Open Graph */}
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
