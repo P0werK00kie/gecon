@@ -245,7 +245,7 @@ export const statesData: StateData[] = [
     majorCities: [
       {
         name: "Charlotte",
-        imageUrl: "https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+        imageUrl: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/States/NC/Gecon_NC_Charlotte.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU3RhdGVzL05DL0dlY29uX05DX0NoYXJsb3R0ZS53ZWJwIiwiaWF0IjoxNzUwOTYwODg1LCJleHAiOjIzODE2ODA4ODV9.7HjArEV-4wx7z0fqp-UheQSNJ7o3lGAB_CYSzcAwnYI",
         description: "Major financial center where we've completed high-rise and commercial construction projects."
       },
       {
