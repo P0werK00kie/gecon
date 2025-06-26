@@ -138,7 +138,19 @@ const ArticleDetail = () => {
               </a>
             </div>
 
-            {/* Article Meta */}
+            {/* Article Title */}
+            <h1 className="text-white mb-8 leading-tight text-4xl md:text-5xl lg:text-6xl font-bold">
+              {article.frontmatter.title}
+            </h1>
+
+            {/* Article Summary */}
+            <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-4xl font-light">
+              {article.frontmatter.summary}
+            </p>
+          </motion.div>
+        </div>
+
+        {/* Article Meta */}
             <div className="flex flex-wrap items-center gap-6 text-white/80 mb-8">
               <div className="flex items-center gap-2 bg-black/20 px-3 py-2 rounded-full">
                 <Calendar size={18} />
@@ -162,18 +174,7 @@ const ArticleDetail = () => {
                 <span className="font-medium">Share</span>
               </button>
             </div>
-
-            {/* Article Title */}
-            <h1 className="text-white mb-8 leading-tight text-4xl md:text-5xl lg:text-6xl font-bold">
-              {article.frontmatter.title}
-            </h1>
-
-            {/* Article Summary */}
-            <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-4xl font-light">
-              {article.frontmatter.summary}
-            </p>
-          </motion.div>
-        </div>
+        
       </section>
 
       {/* Article Content */}
