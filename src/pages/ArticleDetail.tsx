@@ -169,7 +169,7 @@ const ArticleDetail = () => {
             </div>
 
             {/* Article Summary */}
-            <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-4xl font-light">
+            <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-3xl font-light">
               {article.frontmatter.summary}
             </p>
           </motion.div>
