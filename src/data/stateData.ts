@@ -240,7 +240,7 @@ export const statesData: StateData[] = [
   {
     name: "North Carolina",
     slug: "north-carolina",
-    heroImageUrl: "https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    heroImageUrl: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/States/NC/Gecon_NC_Photo.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU3RhdGVzL05DL0dlY29uX05DX1Bob3RvLndlYnAiLCJpYXQiOjE3NTA5NTk4MDAsImV4cCI6MjM4MTY3OTgwMH0.hVreKIiI-QuIA6joEHe2f858rstfZoQvzPYgRf1KgMM",
     description: "Supporting North Carolina's growth with construction services from the mountains to the coast.",
     majorCities: [
       {
