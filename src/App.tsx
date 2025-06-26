@@ -22,6 +22,16 @@ import Terms from './pages/Terms';
 import NotFound from './pages/NotFound';
 import { ErrorBoundary } from './components/ErrorBoundary';
 
+// State pages
+import Georgia from './pages/states/Georgia';
+import Florida from './pages/states/Florida';
+import Alabama from './pages/states/Alabama';
+import SouthCarolina from './pages/states/SouthCarolina';
+import NorthCarolina from './pages/states/NorthCarolina';
+import Tennessee from './pages/states/Tennessee';
+import Mississippi from './pages/states/Mississippi';
+import Louisiana from './pages/states/Louisiana';
+
 function App() {
   return (
     <HelmetProvider>
@@ -45,6 +55,17 @@ function App() {
                 <Route path="/articles/:slug" element={<ArticleDetail />} />
                 <Route path="/privacy" element={<Privacy />} />
                 <Route path="/terms" element={<Terms />} />
+                
+                {/* State pages */}
+                <Route path="/states/georgia" element={<Georgia />} />
+                <Route path="/states/florida" element={<Florida />} />
+                <Route path="/states/alabama" element={<Alabama />} />
+                <Route path="/states/south-carolina" element={<SouthCarolina />} />
+                <Route path="/states/north-carolina" element={<NorthCarolina />} />
+                <Route path="/states/tennessee" element={<Tennessee />} />
+                <Route path="/states/mississippi" element={<Mississippi />} />
+                <Route path="/states/louisiana" element={<Louisiana />} />
+                
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </main>

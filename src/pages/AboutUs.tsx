@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import SEO from '../components/SEO';
+import StatesSection from '../components/StatesSection';
 
 const AboutUs = () => {
   return (
@@ -39,26 +40,9 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-      {/*}
-      <section className="py-16 px-4 md:px-16 bg-gray-50">
-        <div className="container mx-auto">
-          <div className="text-center mb-16">
-            <span className="inline-block px-4 py-2 bg-[#075f2c] text-white font-arial mb-4">
-              MEET
-            </span>
-            <h2 className="font-helvetica text-4xl md:text-6xl font-semibold">
-              OUR TEAM
-            </h2>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {teamMembers.map((member, index) => (
-              <TeamMember key={index} {...member} />
-            ))}
-          </div>
-        </div>
-      </section>
-      */}
+      {/* States Section */}
+      <StatesSection />
     </div>
   );
 };
