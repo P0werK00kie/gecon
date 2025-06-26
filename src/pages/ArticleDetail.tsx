@@ -139,7 +139,7 @@ const ArticleDetail = () => {
             </div>
 
             {/* Article Title */}
-            <h1 className="text-white mb-8 leading-tight text-4xl md:text-5xl lg:text-4xl font-bold">
+            <h1 className="text-white mb-8 leading-tight text-4xl md:text-5xl lg:text-5xl font-bold">
               {article.frontmatter.title}
             </h1>
 
