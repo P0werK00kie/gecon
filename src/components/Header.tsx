@@ -141,6 +141,19 @@ const Header: React.FC = () => {
               </li>
               <li className="group">
                 <a 
+                  href="/articles" 
+                  className={`font-barlow text-sm font-semibold tracking-wide relative transition-colors duration-300 ${
+                    isScrolled ? 'text-[#0A122A] hover:text-[#075f2c]' : 'text-white hover:text-white/90'
+                  }`}
+                >
+                  ARTICLES
+                  <span className={`absolute bottom-0 left-0 w-full h-[2px] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100 ${
+                    isScrolled ? 'bg-[#075f2c]' : 'bg-white'
+                  }`}></span>
+                </a>
+              </li>
+              <li className="group">
+                <a 
                   href="/contact" 
                   className={`font-barlow text-sm font-semibold tracking-wide relative transition-colors duration-300 ${
                     isScrolled ? 'text-[#0A122A] hover:text-[#075f2c]' : 'text-white hover:text-white/90'
@@ -244,6 +257,15 @@ const Header: React.FC = () => {
                 className="block py-3 text-[#0A122A] font-barlow text-sm font-semibold tracking-wide relative transition-colors hover:text-[#075f2c]"
               >
                 OPPORTUNITIES
+                <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#075f2c] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
+              </a>
+            </li>
+            <li className="group">
+              <a 
+                href="/articles" 
+                className="block py-3 text-[#0A122A] font-barlow text-sm font-semibold tracking-wide relative transition-colors hover:text-[#075f2c]"
+              >
+                ARTICLES
                 <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#075f2c] transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
               </a>
             </li>

@@ -15,6 +15,8 @@ import CommercialRoofing from './pages/CommercialRoofing';
 import ResidentialRoofing from './pages/ResidentialRoofing';
 import Opportunities from './pages/Opportunities';
 import Contact from './pages/Contact';
+import Articles from './pages/Articles';
+import ArticleDetail from './pages/ArticleDetail';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import NotFound from './pages/NotFound';
@@ -39,6 +41,8 @@ function App() {
                 <Route path="/residential-roofing" element={<ResidentialRoofing />} />
                 <Route path="/opportunities" element={<Opportunities />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/articles" element={<Articles />} />
+                <Route path="/articles/:slug" element={<ArticleDetail />} />
                 <Route path="/privacy" element={<Privacy />} />
                 <Route path="/terms" element={<Terms />} />
                 <Route path="*" element={<NotFound />} />

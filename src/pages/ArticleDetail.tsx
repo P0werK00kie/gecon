@@ -1,0 +1,250 @@
+import React, { useState, useEffect } from 'react';
+import { useParams, Navigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { Calendar, User, Tag, ArrowLeft, Share2 } from 'lucide-react';
+import { MDXProvider } from '@mdx-js/react';
+import SEO from '../components/SEO';
+import { getArticleBySlug, formatDate, getAllArticles } from '../utils/articles';
+import { Article } from '../types/articles';
+
+const ArticleDetail = () => {
+  const { slug } = useParams<{ slug: string }>();
+  const [article, setArticle] = useState<Article | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const loadArticle = async () => {
+      if (!slug) {
+        setError('Article not found');
+        setIsLoading(false);
+        return;
+      }
+
+      try {
+        const articleData = await getArticleBySlug(slug);
+        if (articleData) {
+          setArticle(articleData);
+        } else {
+          setError('Article not found');
+        }
+      } catch (err) {
+        console.error('Error loading article:', err);
+        setError('Failed to load article');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    loadArticle();
+  }, [slug]);
+
+  const handleShare = async () => {
+    if (navigator.share && article) {
+      try {
+        await navigator.share({
+          title: article.frontmatter.title,
+          text: article.frontmatter.summary,
+          url: window.location.href,
+        });
+      } catch (err) {
+        console.log('Error sharing:', err);
+      }
+    } else {
+      // Fallback to copying URL to clipboard
+      navigator.clipboard.writeText(window.location.href);
+      alert('Article URL copied to clipboard!');
+    }
+  };
+
+  // MDX components for styling
+  const mdxComponents = {
+    h1: (props: any) => <h1 className="text-4xl md:text-5xl font-bold text-[#0A122A] mb-8 leading-tight" {...props} />,
+    h2: (props: any) => <h2 className="text-3xl md:text-4xl font-bold text-[#0A122A] mb-6 mt-12 leading-tight" {...props} />,
+    h3: (props: any) => <h3 className="text-2xl md:text-3xl font-bold text-[#0A122A] mb-4 mt-8" {...props} />,
+    h4: (props: any) => <h4 className="text-xl md:text-2xl font-bold text-[#0A122A] mb-4 mt-6" {...props} />,
+    p: (props: any) => <p className="text-[#454d53] text-lg leading-relaxed mb-6" {...props} />,
+    ul: (props: any) => <ul className="list-disc list-inside text-[#454d53] text-lg leading-relaxed mb-6 ml-4" {...props} />,
+    ol: (props: any) => <ol className="list-decimal list-inside text-[#454d53] text-lg leading-relaxed mb-6 ml-4" {...props} />,
+    li: (props: any) => <li className="mb-2" {...props} />,
+    strong: (props: any) => <strong className="font-bold text-[#0A122A]" {...props} />,
+    em: (props: any) => <em className="italic text-[#075f2c]" {...props} />,
+    blockquote: (props: any) => (
+      <blockquote className="border-l-4 border-[#075f2c] pl-6 py-4 my-8 bg-gray-50 italic text-[#454d53] text-lg" {...props} />
+    ),
+    code: (props: any) => (
+      <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono text-[#075f2c]" {...props} />
+    ),
+    pre: (props: any) => (
+      <pre className="bg-gray-900 text-white p-6 rounded-lg overflow-x-auto mb-6" {...props} />
+    ),
+    a: (props: any) => (
+      <a className="text-[#075f2c] hover:text-[#064723] underline transition-colors" {...props} />
+    ),
+  };
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-[#454d53] text-lg">Loading article...</div>
+      </div>
+    );
+  }
+
+  if (error || !article) {
+    return <Navigate to="/articles" replace />;
+  }
+
+  const relatedArticles = getAllArticles()
+    .filter(a => a.frontmatter.tag === article.frontmatter.tag && a.slug !== article.slug)
+    .slice(0, 3);
+
+  return (
+    <div className="min-h-screen">
+      <SEO 
+        title={article.frontmatter.title}
+        description={article.frontmatter.summary}
+        canonicalUrl={`https://gecon.com/articles/${article.slug}`}
+      />
+      
+      {/* Article Header */}
+      <section className="py-16 px-4 md:px-16 bg-gray-50">
+        <div className="container mx-auto max-w-4xl">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+          >
+            {/* Back Button */}
+            <div className="mb-8">
+              <a 
+                href="/articles"
+                className="inline-flex items-center gap-2 text-[#075f2c] hover:text-[#064723] transition-colors"
+              >
+                <ArrowLeft size={20} />
+                Back to Articles
+              </a>
+            </div>
+
+            {/* Article Meta */}
+            <div className="flex flex-wrap items-center gap-6 text-[#454d53] mb-6">
+              <div className="flex items-center gap-2">
+                <Calendar size={18} />
+                <span>{formatDate(article.frontmatter.publishedAt)}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <User size={18} />
+                <span>{article.frontmatter.author}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Tag size={18} />
+                <span className="px-3 py-1 bg-[#075f2c]/10 text-[#075f2c] rounded-full font-medium">
+                  {article.frontmatter.tag}
+                </span>
+              </div>
+              <button
+                onClick={handleShare}
+                className="flex items-center gap-2 text-[#454d53] hover:text-[#075f2c] transition-colors"
+              >
+                <Share2 size={18} />
+                Share
+              </button>
+            </div>
+
+            {/* Article Title */}
+            <h1 className="text-4xl md:text-5xl font-bold text-[#0A122A] mb-6 leading-tight">
+              {article.frontmatter.title}
+            </h1>
+
+            {/* Article Summary */}
+            <p className="text-xl text-[#454d53] leading-relaxed">
+              {article.frontmatter.summary}
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Article Content */}
+      <section className="py-16 px-4 md:px-16">
+        <div className="container mx-auto max-w-4xl">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="prose prose-lg max-w-none"
+          >
+            <MDXProvider components={mdxComponents}>
+              <article.Component />
+            </MDXProvider>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Related Articles */}
+      {relatedArticles.length > 0 && (
+        <section className="py-16 px-4 md:px-16 bg-gray-50">
+          <div className="container mx-auto max-w-6xl">
+            <h2 className="text-3xl font-bold text-[#0A122A] mb-8 text-center">
+              Related Articles
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {relatedArticles.map((relatedArticle, index) => (
+                <motion.div
+                  key={relatedArticle.slug}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: index * 0.1 }}
+                  className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                >
+                  <div className="p-6">
+                    <div className="flex items-center gap-2 text-sm text-[#454d53] mb-3">
+                      <Calendar size={14} />
+                      <span>{formatDate(relatedArticle.frontmatter.publishedAt)}</span>
+                    </div>
+                    <h3 className="text-[#0A122A] mb-3 hover:text-[#075f2c] transition-colors">
+                      <a href={`/articles/${relatedArticle.slug}`}>
+                        {relatedArticle.frontmatter.title}
+                      </a>
+                    </h3>
+                    <p className="text-[#454d53] mb-4 line-clamp-3">
+                      {relatedArticle.frontmatter.summary}
+                    </p>
+                    <a 
+                      href={`/articles/${relatedArticle.slug}`}
+                      className="text-[#075f2c] font-semibold hover:text-[#064723] transition-colors"
+                    >
+                      Read More →
+                    </a>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* CTA Section */}
+      <section className="py-16 px-4 md:px-16 bg-[#075f2c] text-white">
+        <div className="container mx-auto text-center max-w-3xl">
+          <h2 className="text-white mb-4">
+            Need Expert Construction Services?
+          </h2>
+          <p className="text-xl mb-8">
+            Contact our experienced team for professional construction, disaster recovery, and environmental services.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/contact" className="btn btn-secondary">
+              Get a Consultation
+            </a>
+            <a href="tel:+1678-269-1114" className="btn btn-dark">
+              Call (678) 269-1114
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default ArticleDetail;
