@@ -250,17 +250,17 @@ export const statesData: StateData[] = [
       },
       {
         name: "Raleigh",
-        imageUrl: "https://images.pexels.com/photos/1462935/pexels-photo-1462935.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+        imageUrl: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/States/NC/Gecon_NC_Raleigh%20copy.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU3RhdGVzL05DL0dlY29uX05DX1JhbGVpZ2ggY29weS53ZWJwIiwiaWF0IjoxNzUwOTYxMTQwLCJleHAiOjIzODE2ODExNDB9.AjMYgVDk8dsSjg8MTG5Z8qR8YKCUlnWh7Cv3-XtZWN4",
         description: "State capital and technology hub where we've supported government and tech facility construction."
       },
       {
         name: "Wilmington",
-        imageUrl: "https://images.pexels.com/photos/2034851/pexels-photo-2034851.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+        imageUrl: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/States/NC/Gecon_NC_Wilmington%20copy.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU3RhdGVzL05DL0dlY29uX05DX1dpbG1pbmd0b24gY29weS53ZWJwIiwiaWF0IjoxNzUwOTYxMTUyLCJleHAiOjIzODE2ODExNTJ9.49HDBPTe2aIg3vfXGlAyJizfWz6_oNF0SedYEpk9R_A",
         description: "Coastal city where we've provided hurricane recovery and marine construction services."
       },
       {
         name: "Asheville",
-        imageUrl: "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+        imageUrl: "https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/States/NC/Gecon_NC_Asheville%20copy.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvU3RhdGVzL05DL0dlY29uX05DX0FzaGV2aWxsZSBjb3B5LndlYnAiLCJpYXQiOjE3NTA5NjExNjYsImV4cCI6MjM4MTY4MTE2Nn0.JD4eOcHzvhD9DCezA4jCB0tKg6Pxkx0UUo1u53urh4k",
         description: "Mountain region center where we've completed tourism and residential construction projects."
       }
     ],
