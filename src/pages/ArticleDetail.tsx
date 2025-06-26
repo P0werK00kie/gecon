@@ -139,9 +139,9 @@ const ArticleDetail = () => {
             </div>
 
             {/* Article Title */}
-            <h1 className="text-white mb-8 leading-tight text-4xl md:text-5xl lg:text-6xl font-bold">
+            <h2 className="text-white mb-8 leading-tight text-4xl md:text-5xl lg:text-6xl font-bold">
               {article.frontmatter.title}
-            </h1>
+            </h2>
 
             {/* Article Meta */}
             <div className="flex flex-wrap items-center gap-6 text-white/80 mb-8">
