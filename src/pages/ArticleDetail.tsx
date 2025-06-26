@@ -107,19 +107,24 @@ const ArticleDetail = () => {
         canonicalUrl={`https://gecon.com/articles/${article.slug}`}
       />
       
-      {/* Article Header */}
-      <section className="py-16 px-4 md:px-16 bg-gray-50">
-        <div className="container mx-auto max-w-4xl">
+      {/* Hero Section with Static Background */}
+      <section 
+        className="relative h-[500px] bg-cover bg-center" 
+        style={{ backgroundImage: "url('https://wbuiebxqdjuxhvdtiata.supabase.co/storage/v1/object/sign/files/GECON/Gecon%20Main%20Website/Home%20Page/gecon_header_image.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jMjU3NzlmNC01ZjdjLTRjZWEtYmM2MS1mYjMwZjllNzkxM2EiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9HRUNPTi9HZWNvbiBNYWluIFdlYnNpdGUvSG9tZSBQYWdlL2dlY29uX2hlYWRlcl9pbWFnZS53ZWJwIiwiaWF0IjoxNzQ4NjIxMTg2LCJleHAiOjIzNzkzNDExODZ9.DqI0sujIoGCL9W6LyoK4RESU9DvFBzyB4hCSQDkCq9A')" }}
+      >
+        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="container mx-auto px-4 h-full flex items-center relative z-10">
           <motion.div
+            className="max-w-4xl"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
             {/* Back Button */}
-            <div className="mb-8">
+            <div className="mb-6">
               <a 
                 href="/articles"
-                className="inline-flex items-center gap-2 text-[#075f2c] hover:text-[#064723] transition-colors"
+                className="inline-flex items-center gap-2 text-white hover:text-gray-200 transition-colors"
               >
                 <ArrowLeft size={20} />
                 Back to Articles
@@ -127,7 +132,7 @@ const ArticleDetail = () => {
             </div>
 
             {/* Article Meta */}
-            <div className="flex flex-wrap items-center gap-6 text-[#454d53] mb-6">
+            <div className="flex flex-wrap items-center gap-6 text-gray-200 mb-6">
               <div className="flex items-center gap-2">
                 <Calendar size={18} />
                 <span>{formatDate(article.frontmatter.publishedAt)}</span>
@@ -138,13 +143,13 @@ const ArticleDetail = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Tag size={18} />
-                <span className="px-3 py-1 bg-[#075f2c]/10 text-[#075f2c] rounded-full font-medium">
+                <span className="px-3 py-1 bg-white/20 text-white rounded-full font-medium">
                   {article.frontmatter.tag}
                 </span>
               </div>
               <button
                 onClick={handleShare}
-                className="flex items-center gap-2 text-[#454d53] hover:text-[#075f2c] transition-colors"
+                className="flex items-center gap-2 text-gray-200 hover:text-white transition-colors"
               >
                 <Share2 size={18} />
                 Share
@@ -152,12 +157,12 @@ const ArticleDetail = () => {
             </div>
 
             {/* Article Title */}
-            <h1 className="text-4xl md:text-5xl font-bold text-[#0A122A] mb-6 leading-tight">
+            <h1 className="text-white mb-6 leading-tight">
               {article.frontmatter.title}
             </h1>
 
             {/* Article Summary */}
-            <p className="text-xl text-[#454d53] leading-relaxed">
+            <p className="text-xl text-gray-200 leading-relaxed max-w-3xl">
               {article.frontmatter.summary}
             </p>
           </motion.div>
