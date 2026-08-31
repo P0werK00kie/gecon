@@ -19,11 +19,23 @@ const ContactForm: React.FC = () => {
     setSubmitStatus(null);
     
     try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to send contact email');
+      }
+
       const { error } = await supabase
         .from('contact_submissions')
         .insert([data]);
-      
-      if (error) throw error;
+
+      if (error) {
+        console.error('Contact saved via email, but database insert failed:', error);
+      }
       
       setSubmitStatus('success');
       reset();
