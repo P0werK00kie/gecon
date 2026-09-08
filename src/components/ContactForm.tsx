@@ -26,6 +26,8 @@ const ContactForm: React.FC = () => {
       });
 
       if (!response.ok) {
+        const details = await response.text();
+        console.error('Contact API failed:', response.status, details);
         throw new Error('Failed to send contact email');
       }
 
