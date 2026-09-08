@@ -1,6 +1,6 @@
 import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
-import { sendContactEmail } from './api/_lib/sendContactEmail'
+import { sendContactEmail } from './api/contact'
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
